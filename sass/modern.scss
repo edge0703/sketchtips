@@ -1,0 +1,39 @@
+@import "compass/css3/border-radius";
+@import "compass/css3/transition";
+@import "compass/css3/transform";
+
+@import "var";
+@import "lib";
+
+.main-header-nav {
+	margin: 0;
+	max-width: none;
+}
+
+.overlay {
+	position: absolute;
+	left: 0; top: 0;
+	margin: 0;
+	@include translateY(-500%);
+	// -webkit-transform: translateY(-500%);
+	@include transition(all .3s .1s);
+}
+
+.overlay-search {
+	input[type=search] {
+		width: 100%;
+	}
+}
+
+:target {
+	@include translateY(0);
+	top: convert-px($nav-init-border * 2); top: $nav-init-border * 2;
+
+	@include media-query(small) {
+		top: 0;
+	}
+
+	.no-csstransforms {
+		top: -100%;
+	}
+}

@@ -1,0 +1,13 @@
+# Code kommentieren ✔︎
+# FOUC entfernen ︎✔︎
+# Loadmore: Artikel mit CSS3 transition erscheinen lassen, nicht mit jQuery ✔︎
+# Loadmore: Animation auch für Browser ohne Animations ✔︎
+# Gesuchte tips einfaden lassen ✔︎
+# .htaccess für Tip-Namen und Site-Title inkl. Tipnamen ✔︎
+# SVG statt Iconfont ︎︎✔︎
+
+# Sprite für Fallback-PNGs
+# Print-Stylesheet
+
+# In möglichst vielen Browsern testen
+# Tips schreiben

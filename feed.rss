@@ -1,0 +1,721 @@
+
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<channel>
+<title>sketchtips.info</title>
+<link>http://www.sketchtips.info</link>
+<description>Clever tips for your favourite design app.</description>
+<lastBuildDate>Fri, 18 Apr 2014 23:43:55 +0100</lastBuildDate>
+<language>en-US</language>
+
+
+<item>
+<title>Sketch 3 is here</title>
+<link>http://www.sketchtips.info/?tip=31</link>
+<pubDate>Fri, 18 Apr 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>As you may have noticed a couple of days ago <a href="http://bohemiancoding.com/sketch/">Sketch 3</a> has been released. The biggest change is probably the inclusion of Symbols which let you finally add reusable elements. Another huge improvement is the revision of exporting which is now an integral part of the app and not a separate dialog anymore. But these are not the only changes, Sketch 3 has been totally overhauled with countless little change, not only to the appearance but also the workflow.</p>
+
+<p>To keep pace I also slightly changed sketchtips and added an indicator to each tip which shows if it applies to Sketch 2, Sketch 3 or both. Additionally I revised each tip to reflect the changes which may have occured from Sketch 2 to Sketch 3. Therefore I was not able to produce a tip this week.</p>
+
+<p>However from now on I will solely focus on Sketch 3 and all screenshots, features and tips will be taken straight from this release. While its predecessor is still a great product and can undoubtedly be used to produce wonderful designs, you definitely should give Sketch 3 a try and experience all of its new features and optimizations. It's definitely worth it.</p> 
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Maximize available space</title>
+<link>http://www.sketchtips.info/?tip=30</link>
+<pubDate>Wed, 09 Apr 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcuts:</em> <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>1</kbd>, <kbd>2</kbd> or <kbd>3</kbd></p>
+
+<p>Especially at smaller screens &ndash; think MacBook Air &ndash; the workspace of Sketch can get crowded pretty fast with the Layers List on the left and the Inspector on the right. To maximize the available space of the canvas you can hide both. For the Layers List press <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>1</kbd>, the Inspector can be hidden with <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>2</kbd>. There&rsquo;s also the option to remove both at the same time with <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>3</kbd>.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-apr-09-2014.png" width="726" height="382" alt="Screenshot of Sketch which shows 3 of the above shortcuts" class="resrc"></figure>
+
+<p>To get even more screen estate you can also hide the Toolbar with <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>T</kbd>. Lastly, as in many Mac apps, there&rsquo;s the possibility to go into Full Screen mode with <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>F</kbd>.</p><p>This tip applies to: Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Dublicate and repeat</title>
+<link>http://www.sketchtips.info/?tip=29</link>
+<pubDate>Wed, 02 Apr 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>A neat trick I have discovered recently in Sketch is the ability to quickly dublicate and repeat layers by the same distance. Actually it&rsquo;s quite easy: Select the layer you want to distribute, press and hold <kbd>alt</kbd> and drag it to the new position. The important thing here is where you move the layer, since all copies will be placed at exactly the same offset. </p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-apr-02-2014.png" width="726" height="580" alt="Screenshot of Sketch which shows different layers that are distributed evenly" class="resrc"></figure>
+
+<p>After that press <kbd>cmd</kbd> + <kbd>D</kbd> as aften as you want the layer to be dublicated. It&rsquo;s as easy as that. Another way to distribute layers is the <a href="http://sketchtips.info/?tip=16">&ldquo;Grid Tool&rdquo;</a>, which I have already described at sketchtips.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Quickly change opacity</title>
+<link>http://www.sketchtips.info/?tip=28</link>
+<pubDate>Wed, 26 Mar 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>Although Sketch and Photoshop couldn&rsquo;t be more different, they have a few things in common &ndash; presumably on purpose. One of these similiarities is the ability to change the opacity of a layer with the numeric keys. The range goes from <kbd>1</kbd> (10 %) to <kbd>0</kbd> (100 %) and all the values in beween.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-mar-26-2014-1.png" width="726" height="400" alt="Screenshot of Sketch which three different opacity levels (10 %, 50 %, 100 %)" class="resrc"></figure>
+
+<p>Unlike in Photoshop however it&rsquo;s not possible to set values below 10 % hereby. For this task you still need to use the slider in the Inspector on the right side: <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-mar-26-2014-2.png" width="194" height="36" alt="Opcity slider" class="tip-image-inline"></p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Masking</title>
+<link>http://www.sketchtips.info/?tip=27</link>
+<pubDate>Wed, 19 Mar 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>M</kbd></p>
+
+<p>One of the essential abilities of any graphical application is masking. Although Sketch is mainly based on vectors and not designed for image editing, it still has some basic functionality here - enough to embellish your mock-ups. To mask an image just insert it into Sketch (the simplest way is to drag it in from the Finder) and draw any shape or vector on the canvas, which will act as the mask. Then move this shape beyond the image (by dragging it in the Layers List or pressing <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>down</kbd>), right click on it in the Layers List and select &ldquo;Use as mask&rdquo; or press <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>M</kbd>. If everything went right the shape should function as a mask now.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-mar-19-2014-1.jpg" width="726" height="506" alt="Screenshot of Sketch which shows multiple masked images" class="resrc"><figcaption class="tip-image-text">Images by <a href="http://dribbble.com/AndersJilden">Anders Jildén</a>, <a href="http://www.flickr.com/davideragusa">Davide Ragusa</a> and <a href="http://dribbble.com/wojtas">Wojtek Witkowski</a> and  on <a href="http://unsplash.com/">Unsplash</a></figcaption></figure>
+
+<p>To mask multiple images on the canvas just enclose each shape and image into a separate group (select both and press <kbd>cmd</kbd> + <kbd>G</kbd>). A little dot on the left of the layer in the Layers List <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-mar-19-2014-2.png" width="89" height="27" alt="Indication of a masked layer" class="tip-image-inline"> indicates that it is masked by another layer. If you don&rsquo;t want to use a layer as a mask anymore right click on it in the Layers List and uncheck &ldquo;Use As Mask&rdquo;. Of course masking is not limited to images, any shape can also mask another shape - even text. But in this case you have to convert it to outlines first (right click &gt; &ldquo;Convert to Outlines&rdquo;).</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Quick exporting</title>
+<link>http://www.sketchtips.info/?tip=26</link>
+<pubDate>Wed, 12 Mar 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>While the Export option in Sketch is pretty straightforward and easy to use there is an even simpler way to save your files. All you have to do is to click on &ldquo;Export&rdquo; icon <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-mar-12-2014-2.jpg" width="39" height="39" alt="Icon of the 'Export' option" class="tip-image-inline"> in the toolbar (top right corner) and draw a selection around the part of the artboard you want to export. Then drag the little thumbnail of your selection to the desktop or another location like the Finder and it gets immediatley saved as a PNG image. </p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-mar-12-2014.jpg" width="726" height="458" alt="Screenshot of Sketch which shows the Export option" class="resrc"><figcaption class="tip-image-text">Game Center Icon by <a href="http://codepen.io/rss/pen/vclLe">Riza Selçuk Saydam</a> on <a href="http://sketchmine.co/">sketchmine.co</a></figcaption></figure><p>This tip applies to: Sketch 2.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Click-through when selecting layers</title>
+<link>http://www.sketchtips.info/?tip=25</link>
+<pubDate>Wed, 05 Mar 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>The more layers and layer groups you have in your document, the harder it gets to select individual layers. The default way to access layers within a group is to double-click on it, which can get pretty tedious for multiple nested groups. To ease this process there are several possibilities in Sketch:</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-mar-05-2014.jpg" width="726" height="388" alt="Screenshot of Sketch which shows the Layers List with multiple layers" class="resrc"><figcaption class="tip-image-text">Jolly Icons by <a href="http://jollyicons.com/">Olly Holovchenko</a> on <a href="http://iconmelon.com/">iconmelon.com</a></figcaption></figure>
+
+<ol>
+	<li>In Sketch 2, when a layer group is selected you can check &ldquo;Click-through when selecting&ldquo; in the Inspector (right panel, top area). In Sketch 3 this option is not available anymore. Now it&rsquo;s possible to select nested layers, but you still need to check this option for every nested group within a group. Turn it off by unchecking the checkbox or with a right click on the layer group in the Layers List (left panel) and selecting &ldquo;Click-through&rdquo; (Sketch 3: &ldquo;Toggle Click-through&rdquo;).</li>
+	<li>To permanently enable this option you can select &ldquo;Enable Click-through for New Groups&rdquo; in the &ldquo;Layers&rdquo; tab of the Preferences (Sketch > Preferences... or <kbd>cmd</kbd> + <kbd>,</kbd>). Please note that this only applies to newly created layer groups. </li>
+	<li>The easiest way is to press the <kbd>cmd</kbd> key when pointing at a layer. This enables you to select layers within groups no matter how deeply nested they are.</li>
+</ol><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Layer list options</title>
+<link>http://www.sketchtips.info/?tip=24</link>
+<pubDate>Wed, 26 Feb 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<figure class="tip-image-right"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-feb-26-2014-1.jpg" width="214" height="269" alt="Screenshot of Sketch which shows the layer list, amongst them is a hidden, a locked and a selected layer" class="resrc"/></figure>
+
+<p>Like in every application, the true power of Sketch lies within its shortcuts. Especially the handling of layers in the layers list can be improved drastically if you memorize some keyboard buttons. </p>
+
+<ul>
+	<li><strong>Hide a layer</strong>: <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>H</kbd>. The eye symbol <img src="http://www.sketchtips.info/img/screen-feb-26-2014-2.png" width="27" height="27" alt="" class="tip-image-inline"> shows that the layer is hidden.</li>
+	<li><strong>Lock a layer</strong>: <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>L</kbd>. The padlock symbol <img src="http://www.sketchtips.info/img/screen-feb-26-2014-3.png" width="27" height="27" alt="" class="tip-image-inline"> shows that the layer is locked.</li>
+	<li><strong>Rename a layer</strong>: <kbd>cmd</kbd> + <kbd>R</kbd> followed by <kbd>enter</kbd>.</li>
+	<li><strong>Select previous/next layer</strong>: <kbd>tab</kbd> / <kbd>shift</kbd> + <kbd>tab</kbd>. In combination with <kbd>cmd</kbd> + <kbd>R</kbd> you can quickly rename multiple layers this way.</li>
+	<li><strong>Move a layer to the front/back</strong>: <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>up</kbd> / <kbd>down</kbd></li>
+	<li><strong>Make a layer the topmost/bottommost one</strong>: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>up</kbd> / <kbd>down</kbd></li>
+</ul><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Show artboard preview</title>
+<link>http://www.sketchtips.info/?tip=23</link>
+<pubDate>Wed, 19 Feb 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-menu"><strong>Menu bar: View &gt; Show Artboard Preview</strong></p>
+
+<p>When you are working on a design for your app or website it&rsquo;s often litereally hard to see the big picture. Luckily there is an option in Sketch which lets you preview your current artboard in a separate window &ndash; just like in Photoshop. That is especially useful if you work with multiple displays and are able to place the preview on the other screen this way.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-feb-19-2014.jpg" width="726" height="508" alt="Screenshot of Sketch which shows a zoomed in design and the Artboard Preview" class="resrc"/><figcaption class="tip-image-text"><a href="http://dribbble.com/shots/1291128-SoundCloud-iOS-Redesign/attachments/179284">Soundcloud Redesign</a> by <a href="http://dribbble.com/GavinAnthony">Gavin Anthony</a></figcaption></figure>
+
+<p>To open this preview window select &ldquo;Show Artboard Preview&rdquo; from the &ldquo;View&rdquo; menu and you get a handy preview pane which you can move around as you wish. If this option is greyed out for you, you may not have created an artboard or your artboard is empty. You also need to have a layer selected.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Simple bitmap editing</title>
+<link>http://www.sketchtips.info/?tip=22</link>
+<pubDate>Wed, 12 Feb 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcuts:</em> <strong>double-click</strong> on an image, then <kbd>del</kbd> or <kbd>backspace</kbd></p>
+
+<p>Although Sketch is based on vectors, there is still a very basic possibility to crop bitmap images. You just need to insert the image, double-click on it and draw a border around the area you want to delete. Then hit <kbd>del</kbd> or <kbd>backspace</kbd> on the keyboard and the selected area is gone.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-feb-12-2014.jpg" width="726" height="450" alt="Screenshot of Sketch which shows an image with a marque on it" class="resrc"/><figcaption class="tip-image-text">Image by <a href="http://dribbble.com/veeo">Vee-O</a> on <a href="http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_52d5bbef8a613_1.JPG">Unsplash</a></figcaption></figure>
+
+<p>This way you can also copy and paste parts of the image with <kbd>cmd</kbd> + <kbd>C</kbd> and <kbd>cmd</kbd> + <kbd>V</kbd> like you would normally do. But please be aware that this manipulations can not be reversed at a later time like the boolean operations of layers.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Scale vs. scale</title>
+<link>http://www.sketchtips.info/?tip=21</link>
+<pubDate>Wed, 05 Feb 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-menu"><strong>Menu bar: Edit &gt; Scale...</strong></p>
+
+<p>In Sketch there are two ways to scale layers. The most obvious possibility is to select the layer and drag the handles to the desired size. However this way the properties like border and shadow size stay at the original size and aren&rsquo;t scaled proportionally. Moreover the resizing can get a bit wonky especially at smaller sizes. </p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-feb-05-2014-1.png" width="726" height="392" alt="Screenshot of Sketch which shows a layer and the dialog 'Scale Layers'" class="resrc"/></figure>
+
+<p>While you might desire this &ldquo;unproportional&rdquo; behavior sometimes, often you need to scale everything at the same factor. That&rsquo;s when the &ldquo;Scale Layers&rdquo; dialog comes into play. There&rsquo;s even an icon in the Toolbar for that: <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-feb-05-2014-2.png" width="39" height="39" alt="Icon of the 'Scale Layers' option" class="tip-image-inline">. This dialog lets you resize the layer and all of its properties proportionally, moreover you can exactly define the factor for resizing and get a pixel-perfect result even at smaller sizes.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Link styles</title>
+<link>http://www.sketchtips.info/?tip=20</link>
+<pubDate>Wed, 29 Jan 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>You know these days, when a client asks you to change all the buttons in your mockup from green to red. With a bit of consideration this &ldquo;problem&ldquo; can be quite easily solved in Sketch with its ability to link styles. For this purpose there is a &ldquo;Link&ldquo; button in the top right region of Sketch, which expands an area where all the styles saved so far are shown. To make a new one, click the element which appearance you want to copy and hit the &ldquo;+&ldquo; to add a square that represents the new style.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jan-29-2014-1.jpg" width="726" height="276" alt="Screenshot of Sketch which shows three layers and the location of the 'Link' button" class="resrc"/></figure>
+
+<p>If you want to apply this new style to othere elements, just select them and click on this style tile. After that all elements share the same characteristics and if you change the appearance of one of them, all the other elements get changed too.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jan-29-2014-2.jpg" width="726" height="276" alt="Screenshot of Sketch which shows three layers that are linked to share the same appearance" class="resrc"/></figure>
+
+<p>To delete a style right click on it and select &ldquo;Remove&ldquo;.</p>
+
+<p>In Sketch 3 this functionality is not gone but a bit more streamlined. Instead of tiles you have a dropdown list now with all the shared styles. The exact workflow will be described in a future tip.</p><p>This tip applies to: Sketch 2.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Rotate copies</title>
+<link>http://www.sketchtips.info/?tip=19</link>
+<pubDate>Wed, 22 Jan 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-menu"><strong>Menu bar: Edit &gt; Paths &gt; Rotate Copies (Sketch 3: Layer &gt; Paths &gt; Rotate Copies)</strong></p>
+
+<p>One of the rather hidden yet very useful &ndash; not to say terrific &ndash; features of Sketch is the ability to take a shape and rotate it several times to get different compound shapes or patterns. To use it first select a shape you have created, then go to &ldquo;Edit &gt; Paths &gt; Rotate copies&rdquo; (Sketch 3: Layer &gt; Paths &gt; Rotate Copies). In this dialog you can choose how many additional copies of the layer you want to create.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jan-22-2014-1.jpg" width="726" height="358" alt="Screenshot of Sketch which shows the dialog 'Rotate copies'" class="resrc"/></figure>
+
+<p>The best part is, after you have executed this operation, you are presented with a handle which allows you to change the result to create totally different outcomes. Just drag the little circle around and see the magic unfold.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jan-22-2014-2.jpg" width="726" height="596" alt="Screenshot of Sketch which shows the outcome of 'Rotate copies' with 7 rotated traingles" class="resrc"/></figure>
+
+<p><strong>Bonus</strong>: To get quick acces to this feature, you can add it to the Toolbar with a right click. Select &ldquo;Customize toolbar...&rdquo; and drag the icon to the desired location.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Copy CSS attributes</title>
+<link>http://www.sketchtips.info/?tip=18</link>
+<pubDate>Wed, 15 Jan 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-menu"><strong>Menu bar: Edit &gt; Copy CSS Attributes</strong></p>
+
+<p>Did you ever wish there was an option in Photoshop, which allows you to copy the visual properties of a layer &ndash; like the roundness of the corners, the gradients and the shadows &ndash; to use in CSS? Bad luck for you then. Fortunately Sketch can produce relief.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jan-14-2014.jpg" width="726" height="409" alt="Screenshot of Sketch which shows a layer with various CSS-ready properties" class="resrc"/></figure>
+
+<p>Select a layer, preferably with CSS-ready options, go to &ldquo;Edit &gt; Copy CSS Attributes&rdquo; and the magic happens. Paste it into your favourite code editor and all the visual properties are reflected there now. It even works for transformations and gives you the new &ldquo;to&rdquo; syntax for gradients &ndash; but unfortunatley not the dimensions of the element.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Round to nearest pixel edge</title>
+<link>http://www.sketchtips.info/?tip=17</link>
+<pubDate>Tue, 07 Jan 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-menu"><strong>Menu bar: Edit &gt; Round to Nearest Pixel Edge (Sketch 3: Layer &gt; Round to Nearest Pixel Edge)</strong></p>
+
+<p>When you edit the vector points of a shape it can happen easily that the edges are not pixel-perfect anymore. To get back to sharp edges, you just need to select &ldquo;Round to Nearest Pixel Edge&rdquo; from the &ldquo;Edit&rdquo; menu (in Sketch 3 it can be found in the &ldquo;Layer&rdquo; menu).</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jan-07-2013.png" width="726" height="528" alt="Screenshot of Sketch which shows the same layer. It  is unoptimized on top and optimized to have sharp edges at the bottom" class="resrc"/></figure>
+
+<p>However this option only works if you have two or more layers that have a boolean operation applied (like &ldquo;Union&rdquo;, &ldquo;Substract&rdquo;, &ldquo;Intersect&rdquo; or &ldquo;Difference&rdquo;, as described in the <a href="http://www.bohemiancoding.com/sketch/help/manual/vector-editing/boolean-operations/">Sketch help</a>) and you are in <a href="http://www.sketchtips.info/?tip=4">pixel mode</a>. These limitations do not exist anymore in Sketch 3.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Make Grid, part 2</title>
+<link>http://www.sketchtips.info/?tip=16</link>
+<pubDate>Mon, 30 Dec 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-menu"><strong>Menu bar: Arrange &gt; Make Grid...</strong></p>
+
+<p>Additional to the tip &ldquo;<a href="/?tip=5">Make Grid, part 1</a>&rdquo;, this option also allows to make copies of a single layer with even spacing. First select the layer which you want to copy and distribute.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-dec-24-2013-1.jpg" width="726" height="528" alt="" class="resrc"/></figure>
+
+<p>After that choose <strong>Arrange > Make Grid...</strong> from the menu or click on the icon <img src="img/screen-nov-21-2013-4.jpg" width="26" height="26" alt="" class="tip-image-inline"/> in the toolbar (in Sketch 3 it isn&rsquo;t there by default). In the following panel you can select how many columns and rows you need for the layer and the margin in between. The &ldquo;Boxed&rdquo; option works in the same way like described in the former tip. </p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-dec-24-2013-2.jpg" width="726" height="528" alt="" class="resrc"/></figure>
+
+<p>After you click on &ldquo;Arrange&rdquo; the layer gets copied and arranged based on the selected options. </p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Switch between color spaces</title>
+<link>http://www.sketchtips.info/?tip=15</link>
+<pubDate>Mon, 23 Dec 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>A feature in Sketch I&rsquo;ve long overlooked is the ability to switch between the standard color space RGB and HSB (normally called HSL). But it&rsquo;s that easy: just click somewhere between the RGB input fields when in the color selection panel. Then Sketch switches between RGB and HSB.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-dec-21-2013.png" width="726" height="330" alt="Screenshot shows Sketch with the instruction on how to switch color spaces" class="resrc"/></figure><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Vector point options</title>
+<link>http://www.sketchtips.info/?tip=14</link>
+<pubDate>Wed, 18 Dec 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>The different points of a shape &ndash; the vector points &ndash; have different modes, which let you define how a point looks. For example if it&rsquo;s straigt or rounded. Three of the modes have so called control points &ndash; the little handles next to the vector point &ndash; which let you define the curve(s) of the point. The different modes are as follows:</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-dec-17-2013.jpg" width="726" height="504" alt="Screenshot of Sketch which shows the five different vector point options mentioned below" class="resrc"/></figure>
+
+<ol>
+	<li><strong>Straight</strong>: There are no control points available, which results in an angular shape.</li>
+	<li><strong>Mirrored</strong>: The control points lie on a straght line and have the exact same distance from the vecor point. This results in an even curve.</li>
+	<li><strong>Asymmetric</strong>: The control points also lie on the same line, but can be moved independently of each other, which results in different curve radii on each side of the vector point.</li>
+	<li><strong>Disconnected</strong>: The control points don&rsquo;t lie on the same line and can be moved individually, which results in two total different curves.</li>
+	<li><strong>Rounded</strong>: There are also no control points available, but just like at a rounded rectangle you can define the rounding based on a number. This also results in an even curve.</li>
+</ol>
+
+<p>The only difference in Sketch 3 is that these icons are not located in the toolbar anymore but in the Inspector on the right and that they look different and are more self-evident now.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Mathematical operations in input fields</title>
+<link>http://www.sketchtips.info/?tip=13</link>
+<pubDate>Fri, 13 Dec 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>Input fields are pretty clever in Sketch. They let you perform mathematical operations like &ldquo;342* 2&rdquo; or &ldquo;209 &minus; 2&rdquo;. The operation is performed on the selected layer(s) as soon as you press <kbd>enter</kbd>. This works for every input field where you can enter numbers, also for text sizes.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-dec-13-2013.jpg?code=234" width="726" height="504" alt="Screenshot of Sketch which shows two input fields with the above mentioned mathematical operations" class="resrc"/></figure>
+
+<p><strong>Bonus</strong>: Numbers in input fields can also be de- and increased with the up and down arrow keys on the keyboard. If you press <kbd>shift</kbd> at the same time, the de- or increments are performed in decadic steps.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Edit vector points</title>
+<link>http://www.sketchtips.info/?tip=12</link>
+<pubDate>Tue, 10 Dec 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>enter</kbd> or <strong>double-click</strong></p>
+
+<p>Since every shape consists of multiple vector points, you can also edit them. After you have selected the shape simply press <kbd>enter</kbd> or double-click on it to edit the points. </p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-dec-09-2013.png" width="726" height="354" alt="Screenshot of Sketch which shows two layers, the left shows the 'Edit shape' mode, the right the 'Edit vector points' mode" class="resrc"/><figcaption class="tip-image-text"><a href="http://dribbble.com/shots/1112098-Base-Sketch/">iOS 7 Base Icon by Matthew R. Miller</a></figcaption></figure>
+
+<p>The vector points are indicated by little circles instead of the little squares of the layer handles. To go back to editing the whole shape, press <kbd>esc</kbd> or click anywhere on the canvas.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Quickly create shapes</title>
+<link>http://www.sketchtips.info/?tip=11</link>
+<pubDate>Thu, 05 Dec 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>Since the most important feature in every graphic program is actually to create different kinds of shapes, Sketch has a handy shortcut for every important one.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-dec-05-2013.jpg" width="726" height="374" alt="Screenshot of Sketch which shows the shortcuts you use to make different shapes" class="resrc"/></figure>
+
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>L</kbd></p>
+
+<p>Lets you create a line.</p>
+
+<hr/>
+
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>O</kbd></p>
+
+<p>Lets you create an oval (circle/ellipsis).</p>
+
+<hr/>
+
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>R</kbd></p>
+
+<p>Lets you create a rectangle (square).</p>
+
+<hr/>
+
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>U</kbd></p>
+
+<p>Lets you create a rounded rectangle (square).</p>
+
+<hr/>
+
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>T</kbd></p>
+
+<p>Lets you create text.</p>
+
+<hr/>
+
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>V</kbd></p>
+
+<p>Lets you create a vector shape consisting of multiple vector points.</p>
+
+<hr/>
+
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>P</kbd></p>
+
+<p>Lets you draw a freeform vector, which is smoothed at the end.</p>
+
+<hr/>
+
+<p class="tip-text-shortcut"><em>Shortcuts:</em> <kbd>shift</kbd> and <kbd>alt</kbd></p>
+
+<p><strong>Bonus</strong>: If you press <kbd>shift</kbd> when creating a rectangle or rounded rectangle, you get a square, for the oval you get a perfect circle, together with the line it contrains the creation to 45 degree steps. When editing a shape it retains its current ratio.</p>
+
+<p>Hitting the <kbd>alt</kbd> key lets you create/manipulate the shapes beginning at the center. Also works together with <kbd>shift</kbd>.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Show color picker</title>
+<link>http://www.sketchtips.info/?tip=10</link>
+<pubDate>Tue, 03 Dec 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>ctrl</kbd> + <kbd>C</kbd></p>
+
+<figure class="tip-image"><img src="http://www.sketchtips.info/img/screen-dec-03-2013.png" width="726" height="346" alt="Screenshot of Sketch which shows how you can use the usage of the color picker" class="resrc"/></figure>
+
+<p>This shortcut shows a color picker, which you can use to quickly select a color from your design. You can even move it out of the boundaries of Sketch to measure the color of other GUI elements. You just need to select a layer for this feature to work.</p>
+
+<p><strong>Bonus</strong>: If you are inside the &ldquo;Fill color&rdquo; panel, you can also click on the color picker icon <img src="img/screen-jan-22-2014-3.png" width="25" height="24" alt="Icon of the color picker" class="tip-image-inline"> to pick a color.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Template creation</title>
+<link>http://www.sketchtips.info/?tip=9</link>
+<pubDate>Fri, 29 Nov 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-menu"><strong>Menu bar: File &gt; Save as Template&hellip;</strong> and <strong>File > New from Template</strong></p>
+
+<p>When I&rsquo;m working on an iOS app, I like to use this <a href="http://dribbble.com/shots/1117118-iPhone-5-Artboards-sketch
+">template</a> by Thierry Teyssier. It displays an iPhone 5 shape around the art board and allows you to easily visualize the design in context at any time. And because the mockup of the device is outside the art board it doesn&rsquo;t get in the way when you design and the focus is kept on the content of the screen.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-nov-29-2013-1.png" width="726" height="380" alt="Screenshot of Sketch which shows two artboards with an iPhone shape around" class="resrc"/></figure>
+
+<p>Once it&rsquo;s opened you can save it as a template for later: <strong>File > Save as Template&hellip;</strong> Give the template an explicit name like &ldquo;iOS new app&rdquo;. You&rsquo;ll then be able to start from this template whenever you need: <strong>File > New from Template</strong>.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-nov-29-2013-2.png" width="726" height="380" alt="Screenshot of Sketch which is divided into three parts and shows how to set up these shapes" class="resrc"/></figure>
+
+<p><address>This is a guest tip by <a href="http://twitter.com/MaximeCormier" rel="author">Maxime Cormier</a>.</address> He&rsquo;s also the author of the brilliant course &ldquo;<a href="https://www.udemy.com/mobile-app-design-from-scratch/">Mobile App Design from scratch</a>&rdquo;. As a special offer you will get 50 % off with the coupon &ldquo;SKETCHTIPS&rdquo;.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Layer guides</title>
+<link>http://www.sketchtips.info/?tip=8</link>
+<pubDate>Wed, 27 Nov 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>ctrl</kbd> + <kbd>L</kbd></p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-nov-27-2013.jpg" width="726" height="380" alt="Screenshot of Sketch which shows two text layers and two layer guides which border those" class="resrc"/></figure>
+
+<p>Sketch automatically shows alignment guides when you move layers around or nudge them with the keyboard. However there are still times when you need to set manual guides to line up layers. To do that you first need to show the rulers with <kbd>ctrl</kbd> + <kbd>R</kbd> (if they are not yet visile) and then double click on the position where you want to set a layer guide. They are then shown as red lines. To toggle the layer guides press <kbd>ctrl</kbd> + <kbd>L</kbd> repeatedly. This way you switch all alignment guides on and off, not only the ones you have manually set.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Group layers</title>
+<link>http://www.sketchtips.info/?tip=7</link>
+<pubDate>Sun, 24 Nov 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>cmd</kbd> + <kbd>G</kbd></p>
+
+<p>If you work with layers, you often want to apply options to several of them, for example change the color, resize them altogether &ndash; or simply organize things. To be able to do that that you can make a layer group. Just select all the layers you want to group and press <kbd>cmd</kbd> + <kbd>G</kbd>. This way the layers also keep their aspect ratio if you resize them (this does not apply to Sketch 3 anymore). </p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/o=50/http://www.sketchtips.info/img/screen-nov-24-2013-1.jpg" width="726" height="325" alt="Screenshot of Sketch which shows multiple layers, a part of them is ungrouped, a part is grouped" class="resrc"/></figure>
+
+<p>Layer groups are depicted with a folder symbol in the layer list and the nested layers below. To ungroup layers again press <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>G</kbd>.</p>
+
+<p>There are also icons for these two options in the toolbar: <img src="img/screen-nov-24-2013-2.jpg" width="91" height="44" alt="Icons to group/ungroup layers" class="tip-image-inline"/></p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Zooming</title>
+<link>http://www.sketchtips.info/?tip=6</link>
+<pubDate>Fri, 22 Nov 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>cmd</kbd> + <kbd>+</kbd> and <kbd>cmd</kbd> + <kbd>-</kbd></p>
+
+<p>These are the most obvious zooming functions, which let you zoom into and out of the canvas, just like in many other applications. They increase and decrease the zoom level by the double amount each (100 %, 200 %, 400 % ...).
+
+<hr/>
+
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>cmd</kbd> + <kbd>0</kbd></p>
+
+<p>Actual size: This option shows the canvas at the actual size, that is 100 %.</p>
+
+<hr/>
+
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>cmd</kbd> + <kbd>1</kbd></p>
+
+<p>Center canvas: This shortcut zooms the canvas so that all existing elements fill the available screen space. If there is an artboard set, it is centered within the screen.</p>
+
+<hr/>
+
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>cmd</kbd> + <kbd>2</kbd></p>
+
+<p>Zoom selection: This zooms to the currently selected layer (or layers) so that it covers the whole screen.</p>
+
+<hr/>
+
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>cmd</kbd> + <kbd>3</kbd></p>
+
+<p>Center selection: The last one is no zoom function at all, but nevertheless pretty useful. It centers the currently selected layer (or layers) within the canvas, but doesn&rsquo;t alter the actual zoom level.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Make Grid, part 1</title>
+<link>http://www.sketchtips.info/?tip=5</link>
+<pubDate>Thu, 21 Nov 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-menu"><strong>Menu bar: Arrange &gt; Make Grid...</strong></p>
+
+<p>This option is not about what you may think. Against its assumed meaning it doesn&rsquo;t make a grid for you to align things but rather distributes the selected layers with a predefined spacing between them. First select all the layers you need to distribute.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-nov-21-2013-1.jpg" width="726" height="465" alt="Screenshot of Sketch with three unaligned layers" class="resrc"/></figure>
+
+<p>After that choose <strong>Arrange > Make Grid...</strong> from the Menu. Now you can select how many rows you need and how many columns and the amount of spacing between the elements. In our case we want to make just one row with three columns (since we have three elements) and have a spacing of 10 pixels in between. The last option &ndash; &ldquo;Boxed&rdquo; &ndash; assumes that you want to have a virtual box of the same size around each element, but we turn that off for now.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-nov-21-2013-2.jpg" width="726" height="484" alt="Screenshot of Sketch which shows the 'Grid tool' panel" class="resrc"/></figure>
+
+<p>Hit &ldquo;Arrange&rdquo; and the layers are perfectly distributed. There&rsquo;s also a little icon in the toolbar of Sketch <img src="img/screen-nov-21-2013-4.jpg" width="26" height="26" alt="Icon of the 'Make Grid' option" class="tip-image-inline"/> which opens the same dialog (in Sketch 3 this icon isn't shown by default anymore).</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-nov-21-2013-3.jpg" width="726" height="340" alt="Screenshot of Sketch which shows the three layers evenly distributed" class="resrc"/></figure>
+
+<p>Additionally this option can also be used to <a href="/?tip=16">copy and distribute a single layer</a>.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Show pixels</title>
+<link>http://www.sketchtips.info/?tip=4</link>
+<pubDate>Wed, 20 Nov 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>ctrl</kbd> + <kbd>P</kbd></p>
+<!-- <p class="tip-text-menu"><strong>Menu bar: View &gt; Show Pixels</strong></p> -->
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-nov-20-2013.jpg" width="726" height="375" alt="Screenshot of Sketch which shows the difference between non-pixel and pixel mode" class="resrc"/></figure>
+
+<p>Although Sketch is a vector-based app, it has a strong relation to pixel dimensions. While you typically want to stay in the &ldquo;vector&rdquo; mode of Sketch when designing, you can switch to the pixel view whenever you want with <kbd>ctrl</kbd> + <kbd>P</kbd>. This way you can inspect how your design will look in the browser or a non-vector based environment at any time. </p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Easily measure distances</title>
+<link>http://www.sketchtips.info/?tip=3</link>
+<pubDate>Tue, 19 Nov 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>alt</kbd> +  hover</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-nov-19-2013.jpg" width="726" height="490" alt="Screenshot of Sketch which shows two layer groups whereof the distance is measured with 'Easily measure distances'" class="resrc"/></figure>
+
+<p>Normally it&rsquo;s pretty tedious to get distances out of a document from a graphical application. Not so in Sketch. Just select the layer from which you want to measure and then hold down the <kbd>alt</kbd> key and hover over another layer where you want to know the distance from.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Add slices for selection</title>
+<link>http://www.sketchtips.info/?tip=2</link>
+<pubDate>Mon, 18 Nov 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-menu"><strong>Menu bar: File &gt; Add Slices for Selection</strong></p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-nov-18-2013.jpg" width="726" height="270" alt="Screenshot of Sketch which depicts the 'Add slices for selection option'" class="resrc"/></figure>
+
+<p>Sometimes it can be a bit of a hassle if you want to export a whole layer group or multiple layers. To simplify this task you just have to choose the above command and Sketch automatically enters the export panel and encloses the whole selection with the export mark. </p>
+
+<p>In Sketch 3 the slicing process is totally different and not hidden behind a separate dialog anymore but an integral part of the app. I will describe this workflow in a later tip.</p><p>This tip applies to: Sketch 2.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Hello at sketchtips.info</title>
+<link>http://www.sketchtips.info/?tip=1</link>
+<pubDate>Sun, 17 Nov 2013 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>For the past weeks I&rsquo;ve worked hard to get the site online. Foremost it&rsquo;s meant to be a comprehensive gallery for useful tips about <a href="http://www.bohemiancoding.com/sketch/">Sketch</a>. Although it is very easy to learn and master, there are many useful tips which can make the life with the app so much easier. I try to release as much tips as possible per week, but expect about two to three weekly tips.
+
+<p>But sketchtips.info is also kind of a case study for me. In the last time I have read countless articles with so many new techniques and approaches, which I absolutely wanted to employ at a site of mine. For me, the main goals at sketchtips.info were:</p>
+
+<ul>
+<li><strong>Accessibility</strong>: I worked hard so that everything on this site is as accesible as possible with the keyboard and thus for disabled people.</li>
+<li><strong>No JavaScript needed</strong>: This site also works when JavaScript is not available or turned off. It may not be as beautiful as the "full-blown" version and there may also be a few minor things missing, but it still is usable. With JS off you can stil read articles, search for them and drop me a line.</li>
+<li><strong>Scalable images</strong>: While I planned to use an icon font from the beginning, I realized early that this isn&rsquo;t the best solution. Although such "images" are easy to handle, they aren&rsquo;t supported by Opera Mini, which is especially a problem at mobile phones. Many people use this browser on their phone and since I wanted to make sketchtips.info as accesible as possible, I had to use SVG images for the most important iconography.</li>
+<li><strong>Modern vs. old</strong>: This site my not be the fastest, but I tried to optimize it as much as possible. Foremost I used the BBC&rsquo;s <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">&ldquo;Cutting the mustard&rdquo; technique</a> to split the support between old and modern browsers. That means that old browser get a stripped down experience (see "No JavaScript needed") and modern browser are served the "full-blown" experience. This way I don&rsquo;t have to take care about features, which old browsers don&rsquo;t support, because they don&rsquo;t get it nevertheless. That also means that the "high-end" JavaScript file (and some special CSS) is just served to modern browsers. </li>
+<li><strong>Mobile first</strong>: You know the premises: Start small and work your way up. Mobile traffic is exploding and so it&rsquo;s a must to have a site, that works in a broad range of devices. Combined with the above techniques sketchtips.info should work an almost every browser on earth &ndash; at least to a basic degree.</li>
+<li><strong>CSS to the max</strong>: I could have done much at sketchtips.info also with jQuery, but I decided to use CSS3 as often as possible &ndash; foremost for animations and transitions. The main reason, why the site still wouldn&rsquo;t work without JS is that I almost exclusively used Ajax to load new content and handle all the processing.</li>
+</ul>
+
+<p>These were the main points, which I absolutely wanted to employ at this site. Some areas may still need some work and there may be some devices which don&rsquo;t handle the site well enough, but I&rsquo;m always improving. Please share your thougts about sketchtips.info in the comments.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+]]>
+</description>
+</item>
+
+
+</channel>
+</rss>

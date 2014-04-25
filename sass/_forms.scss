@@ -1,0 +1,165 @@
+.form-row {
+	margin-top: convert-px($form-row-top-margin); margin-top: $form-row-top-margin;
+
+	label, .label-msg {
+		display: block;
+
+		@include media-query(small-form) {
+			width: 35%;
+			margin: 0 5% 0 0;
+			display: inline-block;
+		}
+	}
+
+	.label-msg {
+		margin-bottom: 0;
+	}
+
+	input[type=text], input[type=search], input[type=email], textarea {
+		width: 100%;
+		-webkit-appearance: none;  
+		// -webkit-border-radius: 0;
+		@extend %box-sizing;
+		padding: .2*$rem .6*$rem; padding: .2rem .6rem;
+		border: 0;
+		@include borderradius-def;
+		@include transition(all .3s);
+		// outline: 0;
+
+		&:focus {
+			background: rgba(255,255,255,.8);
+			@include box-shadow(0 0 0 .3*$rem rgba(255,255,255,.2)); @include box-shadow(0 0 0 .3rem rgba(255,255,255,.2));
+			outline: 0;
+		}
+
+		@include media-query(small-form) {
+			width: 60%;
+		}
+
+		// Custom form validation error mark
+		&.user-error {
+			@include box-shadow(0 0 0 .2*$rem $errorcolor, 0 0 1*$rem .2*$rem $errorcolor); @include box-shadow(0 0 0 .2rem $errorcolor, 0 0 1rem .2rem $errorcolor);
+			@include animation(anim-error .3s linear);
+
+			.no-boxshadow & {
+				border: 1px solid $errorcolor;
+			}
+		}
+
+		&.user-success {
+			@include box-shadow(0 0 0 .2*$rem $green, 0 0 1*$rem .2*$rem $green); @include box-shadow(0 0 0 .2rem $green, 0 0 1rem .2rem $green);
+			// @include box-shadow(0 0 1*$rem $green); @include box-shadow(0 0 1rem $green);
+
+			.no-boxshadow & {
+				border: 1px solid $green;
+			}
+		}
+	}
+}
+
+.form-row-radio {
+	label {
+		width: auto;
+		margin-right: 5%;
+		display: inline-block;
+	}
+
+	input {
+		width: auto;
+	}
+
+	.label-msg {
+		width: auto;
+	}
+}
+
+.form-row-radio-item {
+	white-space: nowrap;
+	display: block;
+
+	+ .form-row-radio-item {
+		margin-top: .8*$rem; margin-top: .8rem;
+	}
+
+	@include media-query(small-form) {
+		display: inline-block;
+
+		+ .form-row-radio-item {
+			margin: 0 0 0 5%;
+		}
+	}
+}
+
+.form-row-zero {
+	margin: 0;
+}
+
+.form-footer {
+	margin-top: convert-px($form-row-top-margin); margin-top: $form-row-top-margin; 
+	text-align: center;
+}
+
+button {
+	border: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.svg { // Prevent older browsers
+	[type=radio] {
+		@extend %hide-icon;
+
+		+ label {
+			position: relative;
+			padding-left: convert-px($radio-size * 1.4); padding-left: $radio-size * 1.4;
+
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0; top: 50%;
+				width: convert-px($radio-size); height: convert-px($radio-size); width: $radio-size; height: $radio-size;
+				background: rgba(255,255,255,.15);
+				margin-top: convert-px(-$radio-size/2); margin-top: -$radio-size/2;
+				@include border-radius(convert-px($radio-size/2)); @include border-radius($radio-size/2);
+			}
+		}
+
+		&:checked {
+			+ label {
+				&:before {
+					background: #fff;
+					box-shadow: inset 0 .3*$rem .4*$rem rgba(0,0,0,.6); box-shadow: inset 0 .3rem .4rem rgba(0,0,0,.6);
+				}
+			}
+		}
+
+		&:focus {
+			+ label {
+				color: rgba(255,255,255,.7);
+			}
+		}
+	}
+}
+
+[type=file] {
+	color: #fff;
+	vertical-align: bottom;
+	font-size: initial;
+	line-height: 1;
+}
+
+// Custom validation error message
+.ws-po-box {
+	background: $maincolor;
+	border-color: $maincolor;
+	color: #fff;
+	@include borderradius-def;
+}
+
+.ws-po-arrow {
+	border-bottom-color: $maincolor;
+
+	.ws-po-arrowbox {
+		border-bottom-color: inherit;
+	}
+}
