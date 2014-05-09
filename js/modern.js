@@ -14,6 +14,7 @@ $('.main-main-in').prepend('<div id="js-searchcontainer"></div>'); // Container 
 // Remove focusable for overlays, if not visible. Also reset focusable for all links on site. And add "hidden" attribute
 var removeFocus = function() {
 	$('a').removeAttr('tabindex');
+	$('.tip_version_in').attr('tabindex', '0');
 	$('.noFocus').find('a, input, button, textarea, .overlay-title').attr('tabindex', '-1');
 	$('.overlay').attr('hidden', 'true');
 }
@@ -293,12 +294,12 @@ $('.main-main-in').on('click', '.tip-title > a', function(e) { // Show menu on c
     }
     else { // If menu is not yet there
     	$('a').attr('tabindex', '-1'); // Set all links outside the menu to non tapable
+    	$('.tip_version_in').attr('tabindex', '-1'); // Also for version info
     	var text = $(this).parents('.tip-title').find('> a').text(); // Get text of tip
     	var link = $(this).parents('.tip-title').find('> a').attr('href'); // Get link of tip
     	link = "sketchtips.info/?tip=" + link.substr(5); // ...
     	
     	$(this).parent().append('<div class="tip-menu is-hidden" role="dialog" aria-label="tip-menu-label"><h2 id="tip-menu-label">Options</h2><ul><li class="tip-menu-twit"><a href="#">Tweet this tip</a></li><li class="tip-menu-link">Tip link: <input type="text" class="is-hidden"/></li></ul></div>'); // Construct and add menu
-    	// $(this).parent().append('<div class="tip-menu is-hidden" role="dialog" aria-label="tip-menu-label"><h2 id="tip-menu-label">Options</h2><ul><li class="tip-menu-twit"><a href="#">Tweet this tip</a></li><li class="tip-menu-comm"><a href="#">Add comment</a></li><li class="tip-menu-link">Tip link: <input type="text" class="is-hidden"/></li></ul></div>'); // With comment link
     	setTimeout(function(){
 			$('.tip-menu').removeClass('is-hidden'); // Remove class with a timeout, so that it's faded in (same as transition in CSS)
 			$('.tip-menu-twit a').focus();

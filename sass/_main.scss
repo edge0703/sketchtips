@@ -430,7 +430,8 @@
 
 	@include media-query(large) {
 		position: absolute;
-		left: -3.2rem; top: 5.3rem;
+		left: convert-px(-2.8rem); top: convert-px(5.3rem);
+		left: -2.8rem; top: 5.3rem;
 		margin: 0;
 	}
 }
