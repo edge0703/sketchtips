@@ -323,6 +323,8 @@
 
 	> .message {
 		margin-bottom: 2*$rem; margin-bottom: 2rem;
+		padding-right: 3*$rem;
+		padding-right: 3rem;
 	}
 }
 
@@ -976,6 +978,7 @@ $tipversion-size: 2rem;
 
 .message {
 	@include borderradius-def;
+	box-sizing: border-box;
 	padding: .7*$rem .8*$rem; padding: .7rem .8rem;
 	display: inline-block;
 	margin: .4*$rem 0; margin: .4rem 0;
