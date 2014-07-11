@@ -35,7 +35,6 @@ var setActive = function(name) {
 	}
 }
 
-
 // Hide overlay
 var hideOverlay = function() {
 	var hash = window.location.hash;
@@ -73,7 +72,7 @@ removeFocus();
 
 var loadWebshims = function(hash) {
 	if (hash == '#overlay-contact') {
-		$.getScript("js/js-webshim/minified/polyfiller.js", function( data, textStatus, jqxhr ) { // Fancybox
+		$.getScript("js/js-webshim/minified/polyfiller.js", function( data, textStatus, jqxhr ) {
 			// Form validation polyfill
 			$.webshims.setOptions({
 				waitReady: false,

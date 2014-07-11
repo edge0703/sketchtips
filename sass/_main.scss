@@ -34,24 +34,12 @@
 			position: absolute;
 			left: convert-px($size * -1);
 			left: $size * -1; top: 0;
-			background: image-url('logo.png') 0 50% no-repeat;
 			background: inline-image('logo.svg') 0 50% no-repeat, none;
 			background-size: 100% auto;
 			width: convert-px($size * .9);
 			width: $size * .9;
 			height: 100%;
 		} 
-
-		.no-textshadow & {
-			&:before {
-				top: -2.3*$rem; top: -2.3rem;
-			} 
-
-			&:after {
-				content: "";
-				display: none;
-			} 
-		}
 	}
 }
 
@@ -232,12 +220,6 @@
 
 		@include media-query(small-form) {
 			margin-left: 1.6*$rem; margin-left: 1.6rem;
-		}
-	}
-
-	.no-svg & {
-		a {
-			background-color: #fff;
 		}
 	}
 }
