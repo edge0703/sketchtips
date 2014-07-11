@@ -47,9 +47,8 @@ var hideOverlay = function() {
 		$('#js-searchinput').val(''); // Then empty the input field
 		$('#js-searchcount').remove(); // ... remove the search-indicator
 		$('#js-searchcontainer').empty(); // ... empty the search container
-		$('.main-main-in').find('article').removeClass('js-hidden'); 
 		setTimeout(function(){// Show the tips and loadmore-link again which were present before the search - but delay it, so that transition can be seen. js-faded has opacity: 0
-			$('.main-main-in').find('article').removeClass('js-faded');
+			$('.main-main-in').find('article').removeClass('js-hidden js-faded'); 
 				if ($('.main-main-in').find('.message-error').length == 0) {
 					$('.main-main-in').prepend('<p class="message message-fullwidth message-error animation-shake">No tips matched your search term. Please try again. <a href="#" class="hide-icon"><span>Hide message</span></a></p>'); // Also append message that no tips were found
 				}
