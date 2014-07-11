@@ -34,7 +34,7 @@
 			position: absolute;
 			left: convert-px($size * -1);
 			left: $size * -1; top: 0;
-			background: inline-image('logo.png') 0 50% no-repeat;
+			background: image-url('logo.png') 0 50% no-repeat;
 			background: inline-image('logo.svg') 0 50% no-repeat, none;
 			background-size: 100% auto;
 			width: convert-px($size * .9);
@@ -123,7 +123,7 @@
 
 .main-header-nav-item {
 	float: left;
-	width: $one-fourth;
+	width: $one-third;
 	height: convert-px($nav-init-height); height: $nav-init-height;
 
 	&.selected {

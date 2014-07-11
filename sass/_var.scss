@@ -26,7 +26,7 @@ $form-row-top-margin: 1.6rem;
 $nav-init-height: 3.6rem;
 $nav-init-border: .34rem;
 $nav-small-size: 3.6rem;
-$one-fourth: percentage((96.9/4)/100); // 100% - (3 * 1%). Since IE8 has troubles with correcting rounding also substract another 0.1%.
+$one-third: ((100 - 2 * 1) / 3) * 1%; // 2 * 1 = margin
 $max-width-site: 66rem;
 $loading-disc-size: 1.2rem;
 $radio-size: 1.9rem;

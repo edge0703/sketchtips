@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" width="149px" height="129px" viewBox="0 0 149 129" version="1.1">
-    <title>Path</title>
-    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
-    <defs/>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <path d="M74.5 128.9 C74.5 128.9 149 80.6 149 39.5 C149 18.3 136.5 0.2 112.3 0.2 C88.1621094 0.2 74.5 25.2 74.5 25.2 C74.5 25.2 63.9 0.2 37.5 0.2 C11.0478503 0.2 0 18.3 0 39.5 C0 80.6 74.5 128.9 74.5 128.9 Z" id="Oval-1" fill="#fff" sketch:type="MSShapeGroup"/>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" width="149" height="129" viewBox="0 0 149 129"><title>Path</title><path d="M74.5 128.9s74.5-48.3 74.5-89.4c0-21.2-12.5-39.3-36.7-39.3-24.138 0-37.8 25-37.8 25s-10.6-25-37-25c-26.452 0-37.5 18.1-37.5 39.3 0 41.1 74.5 89.4 74.5 89.4z" fill="#fff" sketch:type="MSShapeGroup" fill-rule="evenodd"/></svg>

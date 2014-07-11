@@ -27,6 +27,27 @@ module.exports = function(grunt) {
              }
            },
         },
+        svgmin: {
+            options: {
+                plugins: [{
+                    removeViewBox: false
+                }, {
+                    removeUselessStrokeAndFill: false
+                }, {
+                    convertPathData: {
+                        straightCurves: false
+                    }
+                }]
+            },
+            dist: {
+                files: [{
+                    expand: true,
+                    cwd: 'img',
+                    src: ['**/*.svg'],
+                    dest: 'img'
+                }]
+            }
+        },
         watch: {
             scripts: {
                 files: ['js/*.js'],

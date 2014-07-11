@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="149px" height="129px" viewBox="0 0 149 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <title>Path</title>
-    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <path d="M74.5,128.898438 C74.5,128.898438 149,80.6452159 149,39.5 C149,18.2914041 136.476562,0.193359527 112.319336,0.193359532 C88.1621094,0.193362683 74.5,25.2226562 74.5,25.2226562 C74.5,25.2226562 63.9072253,0.193355547 37.4775378,0.193359527 C11.0478503,0.193363449 0,18.2914041 0,39.5 C0,80.6452159 74.5,128.898438 74.5,128.898438 Z" id="Oval-1" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
-    </g>
-</svg>
+<svg width="149" height="129" viewBox="0 0 149 129" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><title>Path</title><path d="M74.5 128.898s74.5-48.253 74.5-89.398c0-21.209-12.523-39.307-36.681-39.307-24.157 0-37.819 25.029-37.819 25.029s-10.593-25.029-37.022-25.029c-26.43 0-37.478 18.098-37.478 39.307 0 41.145 74.5 89.398 74.5 89.398z" fill="#D8D8D8" sketch:type="MSShapeGroup" fill-rule="evenodd"/></svg>
