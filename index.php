@@ -77,6 +77,33 @@
 				<?php } ?><!-- if tip-detail is called, also load comments -->
 			<?php } ?>
 	</div>
+
+	<div class="overlay overlay-contact noFocus" id="overlay-contact" role="dialog" aria-labelledby="overlay-contact-label">
+		<div class="overlay-inner">
+			<h2 tabindex="0" class="overlay-title" id="overlay-contact-label">Contact me</h2>
+			<!-- Hide link is inserted via JS -->
+			<form method="post" role="form" class="overlay-contact-form" id="js-overlay-contact-form">
+				<?php if ($msgsent == 1) { ?><p class="message message-success">Thanks for getting in contact. I will come back to you as soon as possible.</p><?php } ?>
+				<p class="overlay-contact-hint">If you want to add a screenshot to your tip, please provide a public link to a service like Dropbox or Google Drive and make sure that it is at least 726 pixels wide.</p>
+				<div class="form-row form-row-radio">
+					<p class="label-msg">Do you want to</p>
+					<span class="form-row-radio-item">
+						<input type="radio" name="contact-type" value="tip" id="send-sug" checked> <label for="send-sug">suggest a tip</label>
+					</span>
+					<span class="form-row-radio-item">
+						<input type="radio" name="contact-type" value="message" id="send-msg"> <label for="send-msg">send a message</label>
+					</span>
+				</div>
+				<div class="form-row"><label for="name">Your name</label><input type="text" name="name" id="name" required></div>
+				<div class="form-row"><label for="email">Your e-mail address</label><input type="email" name="email" id="email" required></div>
+				<div class="form-row"><label for="msg">Your tip</label><textarea id="msg" name="msg" cols="30" rows="6" required></textarea></div>
+				<!-- <div class="form-row form-row-file"><label for="screen">Add a screenshot?</label><input type="file" name="screen" id="screen"></div> -->
+				<footer class="form-footer">
+					<button class="button-contact" name="button-contact">Send message</button>
+				</footer>
+			</form>
+		</div>
+	</div>
 </main>
 
 <?php include("inc/footer.php"); ?>
