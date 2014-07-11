@@ -35,6 +35,7 @@ var setActive = function(name) {
 	}
 }
 
+
 // Hide overlay
 var hideOverlay = function() {
 	var hash = window.location.hash;
@@ -48,8 +49,11 @@ var hideOverlay = function() {
 		$('#js-searchcount').remove(); // ... remove the search-indicator
 		$('#js-searchcontainer').empty(); // ... empty the search container
 		$('.main-main-in').find('article').removeClass('js-hidden'); 
-		setTimeout(function(){// Show the tips and loadmore-link again which were present before the search - but delay it, so tat transition can be seen. js-faded has opacity: 0
-			$('.main-main-in').find('article').removeClass('js-faded'); 
+		setTimeout(function(){// Show the tips and loadmore-link again which were present before the search - but delay it, so that transition can be seen. js-faded has opacity: 0
+			$('.main-main-in').find('article').removeClass('js-faded');
+				if ($('.main-main-in').find('.message-error').length == 0) {
+					$('.main-main-in').prepend('<p class="message message-fullwidth message-error animation-shake">No tips matched your search term. Please try again. <a href="#" class="hide-icon"><span>Hide message</span></a></p>'); // Also append message that no tips were found
+				}
 		},300); // Set timeout so that removal of opacity can actually be seen
 	} else if(hash == "#overlay-contact") {
 		$('input, textarea').val('');
@@ -57,6 +61,13 @@ var hideOverlay = function() {
 		$('input, textarea').removeClass('user-success');
 	}
 }
+
+// Hide error message ("no tip found") on click
+$('body').on('click', '.message .hide-icon', function() {
+    $(this).parent().fadeOut(function() {
+        $(this).remove();
+    });
+});
 
 removeFocus();
 
@@ -110,18 +121,12 @@ $('.main-header-nav-item').on('click', 'a', function(e) { // If nav-link is clic
 });
 
 $(document).keydown(function(e) { // overlay can be hidden with ESC key
+    var hash = window.location.hash;
     if(e.which == 27) {
-    	var hash = window.location.hash;
     	if (hash == "#overlay-contact" || hash == "#overlay-search") hideOverlay();
-    	if($('.tip-menu').length > 0) hideMenu();
-    }
-});
-
-
-$(document).keydown(function(e) { // search-overlay can also be hidden with ENTER key
-    if(e.which == 13) {
-    	var hash = window.location.hash;
-    	if (hash == "#overlay-search") hideOverlay();
+    	if ($('.tip-menu').length > 0) hideMenu();
+    } else if(e.which == 13) { // search-overlay can also be hidden with ENTER key
+		if (hash == "#overlay-search") hideOverlay();
     }
 });
 
@@ -191,7 +196,6 @@ if (loc.indexOf("count") > 0) startTips = locPos; // Determine if POST-Parameter
 else startTips = 5; // Else set it to the default value
 var startTips = parseInt(startTips, 10);
 var	countTips = 5; // How many tips to load additionally when clicking on "Load more"
-console.log(startTips);
 var getTips = function(getThis) {
 	$.post("process.php",
 		{

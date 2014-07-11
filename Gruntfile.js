@@ -37,7 +37,7 @@ module.exports = function(grunt) {
             },
             images: {
                 files: ['img/**/*.{png,jpg,gif}'],
-                tasks: ['imagemin'],
+                tasks: ['newer:imagemin:dynamic'],
                 options: {
                     spawn: false,
                 }
@@ -47,16 +47,13 @@ module.exports = function(grunt) {
                 tasks: ['compass']
             },
             livereload: {
-                files: ['css/*.css', '*.php', 'inc/*.php', 'js/*.js'],
+                files: ['css/*.css', '*.php', 'inc/*.php', 'js/*.js', '*.html'],
                 options: { livereload: true }
             }
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
-    grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-compass');
+    require('load-grunt-tasks')(grunt);
 
     grunt.registerTask('default', ['uglify', 'imagemin', 'watch', 'compass']);
 

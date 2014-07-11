@@ -74,22 +74,8 @@
 				if(($startNext_post <= $anzahlAll) && $anzahlSearch < 1 && !isset($tipnumber)) { // Only show more-link if there are tips left to display
 				?>
 				<a href="?count=<?php echo $startNext; ?>" class="loadmore" id="js-loadmore">Load more tips <i>o</i></a>
-				<?php }	if (isset($tipnumber)) { ?><!-- if tip-detail is called, also load comments -->
-				<!-- <div id="disqus_thread"></div>
-				<script type="text/javascript">
-				    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-				    var disqus_shortname = 'sketchtips'; // required: replace example with your forum shortname
-
-				    /* * * DON'T EDIT BELOW THIS LINE * * */
-				    (function() {
-				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-				        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-				    })();
-				</script>
-				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-				<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> -->
-			<?php } } ?>
+				<?php } ?><!-- if tip-detail is called, also load comments -->
+			<?php } ?>
 	</div>
 
 	<div class="overlay overlay-contact noFocus" id="overlay-contact" role="dialog" aria-labelledby="overlay-contact-label">

@@ -3,7 +3,7 @@ include("inc/dbconnect.php");
 
 if ($_POST['event'] == "email") { // Process form
 	$receiver = "ck@css3files.com";
-	$type = $_POST['contact-type'];
+	$type = $_POST['contacttype'];
 	if ($type == "message") $type = "message"; // Check which radio-buttin was selected
 	else $type = "tip";
 	$subject = "New $type from sketch-tips";

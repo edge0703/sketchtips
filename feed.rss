@@ -1,11 +1,248 @@
 
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>sketchtips.info</title>
 <link>http://www.sketchtips.info</link>
 <description>Clever tips for your favourite design app.</description>
-<lastBuildDate>Fri, 18 Apr 2014 23:43:55 +0100</lastBuildDate>
+<lastBuildDate>Wed, 02 Jul 2014 00:00:00 +0100</lastBuildDate>
 <language>en-US</language>
+<atom:link href="http://www.sketchtips.info/feed.rss" rel="self" type="application/rss+xml" />
+
+
+<item>
+<title>How to make a layout-grid</title>
+<link>http://www.sketchtips.info/?tip=41</link>
+<pubDate>Wed, 02 Jul 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>ctrl</kbd> + <kbd>L</kbd></p>
+
+<p>Note: The terms of &ldquo;grid&rdquo; and &ldquo;layout&rdquo; are used a bit ambigious in Sketch. A grid, which you typically use on a website or app to align content, is actually called &ldquo;layout&rdquo;, while a &ldquo;grid&rdquo; is just a raster of evenly spaced vertical and horizontal lines for easier alignment. However, in this article I&rsquo;d like to talk about Sketch&rsquo;s &ldquo;layout&rdquo; option which I call &ldquo;grid&rdquo; in the following to use the proper term.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jul-02-2014-1.png" width="726" height="447" alt="Screenshot of Sketch which shows the 'layout' dialog" class="resrc" data-resrc-dpi="2"/></figure>
+
+<p>Since grids are one of the most essential starting points for a design, they are an inherent part of Sketch. To toggle the grid press <kbd>ctrl</kbd> + <kbd>g</kbd> or select &ldquo;View > Show/Hide layout&rdquo; in either the menubar or toolbar. Now a default grid is shown which you can change with &ldquo;View > Layout Settings...&rdquo;. The following dialog has numerous options to adjust. On the top you can define the &ldquo;Width&rdquo; of the grid and the &ldquo;Number of Columns&rdquo;. Unfortunately the width can only be set in pixels &ndash; if you need a percentage you have to do the math by yourself. Right beneath is a handy &ldquo;Center&rdquo; button and the option &ldquo;Gutter on outside&rdquo;, which distributes half of the set &ldquo;Gutter width&rdquo; on the left and right outside of the grid. If you have set &ldquo;20px&rdquo; then 10px are added to the left side of the grid and 10px on the right side. If switched off the grid is exactly as wide as set at the &ldquo;Width&rdquo;.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jul-02-2014-2.png" width="726" height="377" alt="Screenshot of Sketch with the description of the different parts of a grid" class="resrc" data-resrc-dpi="2"/></figure>
+
+<p>Next you find the aforementioned field for &ldquo;Gutter Width&rdquo;, which determines how wide the spaces in between the columns are and &ldquo;Column Width&rdquo;, which determines the width of columns set at &ldquo;Number of Columns&rdquo; above. The &ldquo;Guter Width&rdquo; is automatically adjusted based on the &ldquo;Total width&rdquo;, &ldquo;Number of Columns&rdquo; and &ldquo;Column Width&rdquo;, but naturally you can also adjust it which in turn affects the &ldquo;Column Width&rdquo;.</p>
+
+<p>Apart from a grid based on columns it is also possible to make a &ldquo;row&rdquo; grid or combine the both. However a row grid is not as flexible as a column grid. The &rdquo;Gutter Height&rdquo; directly affects the &ldquo;Row height&rdquo;, which is just a multiple of it. So the higher the latter, the bigger the rows get. To show every subdivision of the rows select &ldquo;Draw all horizontal lines&rdquo;. Unfortunateley the most essential &ldquo;row&rdquo; grid, a baseline grid, can&rsquo;t be achieved this way.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Arrows and other border options</title>
+<link>http://www.sketchtips.info/?tip=40</link>
+<pubDate>Wed, 25 Jun 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<figure class="tip-image-right"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jun-25-2014-1.png" data-resrc-dpi="2" width="225" height="190" alt="Screenshot of Sketch which shows the advanced options for borders" class="resrc"/></figure>
+
+<p>Some of the options in Sketch are rather hidden. Amongst them are the advanced settings for borders, which can be found if you click on the little gear icon at the border options in the Insector panel. They allow you to:</p>
+<ul>
+	<li><strong>Set the ends of lines</strong>: They can either be angular and end right at the end of the line, jut out by the half width of the thickness and be rounded or angular (from left to right): <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jun-25-2014-2.png" width="84" height="31" alt="Screenshot of Sketch which shows the end options for lines" class="resrc"/></li>
+	<li><strong>Set the joins of lines</strong>: This determines how the corners look where two border lines meet. They can be angular, round or slightly bevelled (from left to right): <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jun-25-2014-3.png" width="84" height="31" alt="Screenshot of Sketch which shows the join options for lines" class="resrc"/></li>
+	<li><strong>Make arrows</strong>: Moreover the start and end points of lines can be equipped with three types of arrows. Unfortunateley they only work correctly for borders of 1 or 2 pixels because they are not sized according to their thickness. </li>
+	<li><strong>Create dashed/dotted lines</strong>: You can set certain patterns, which determine how long the line and the following gap is. A dotted line for example is represented by the values &ldquo;1-1-1-1&rdquo;, a dashed lines is &ldquo;2-1-2-1&rdquo;. The bigger the "dash" values are, the longer the line segments, the bigger the "gap" values are, the bigger the spaces between the lines. </li>
+</ul>
+
+<p>In Sketch 2 these options can be revealed if you click on the little down-pointing arrow at the border options.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Make 9-Slice Image</title>
+<link>http://www.sketchtips.info/?tip=39</link>
+<pubDate>Wed, 11 Jun 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-menu"><strong>Menu bar: Layer &gt; Convert to 9-Slice Image (Sketch 2: Edit &gt; Convert to 9-Slice Image)</strong></p>
+
+<p>With this option you can divide an image into nine sections, which act differently when you resize it:</p>
+
+<ol>
+	<li>The corners get moved.</li>
+	<li>The side areas get stretched.</li>
+	<li>The part in the middle only gets scaled.</li>
+</ol>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jun-11-2014.png" data-resrc-dpi="2" width="726" height="430" alt="Screenshot of Sketch which descries the different sections of a 9-slice image" class="resrc"/><figcaption class="tip-image-text">Browser frame by <a href="http://medialoot.com/item/browser-mock-up-frames/">Medialoot</a></figcaption></figure>
+
+<p>To apply it just select the bitmap, choose &ldquo;Layer &gt; Convert to 9-Slice Image&rdquo; (Sketch 2: &ldquo;Edit &gt; Convert to 9-Slice Image&rdquo;), drag the four handles to the desired location and confirm the operation with <kbd>enter</kbd>. Whenever you resize the image now the outer parts always keep their original appearance. Like in the screenshot you can use this function for example to make a frame of an app, which never gets distorted when you resize it.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Stroke width</title>
+<link>http://www.sketchtips.info/?tip=38</link>
+<pubDate>Wed, 04 Jun 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-menu"><strong>Menu bar: Layer &gt; Paths &gt; Stroke Width (Sketch 2: Edit &gt; Paths &gt; Stroke Width)</strong></p>
+
+<p>Although Sketch is quite unflexible regarding irregular strokes there is still an option for this type of modification. After you have created a vector or path make sure that it has a border applied and select the above menu command, which allows you to set various width points. Just click on any position of the border and drag it outwards to set the width of the stroke at this point. Repeat this step until you have the desired result. Please note that the start and end point of the vector can also be modified. </p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-jun-04-2014.png" data-resrc-dpi="2" width="726" height="251" alt="Screenshot of Sketch which shows a vector with different width points" class="resrc"/></figure>
+
+<p>Unfortunately this tool is somewhat unflexible and can sometimes produce unexpected results. Hence it&rsquo;s better to select and delete existing points with <kbd>del</kbd> or <kbd>backspace</kbd> if you are not satisfied. After you are vaguely happy with the width points select &ldquo;Layer > Paths > Vectorize Stroke&rdquo; (Sketch 2: &ldquo;Edit > Paths > Vectorize Stroke&rdquo;) from the menubar, which lets you alter each individual point. Of course the stroke width can also be altered for shapes, but the best results are produced for straight vectors or paths.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Move shape while creating</title>
+<link>http://www.sketchtips.info/?tip=37</link>
+<pubDate>Wed, 28 May 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>space</kbd></p>
+
+<figure class="tip-image-right"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-may-28-2014.png" data-resrc-dpi="2" width="216" height="216" alt="Screenshot of Sketch which shows the creation of a rectangle plus the text '+ space'" class="resrc"></figure>
+
+<p>Sometimes when you create a shape it can happen that you just don't hit the right spot and it is a bit off. While it&rsquo;s no big effort to move the layer around afterwards, there&rsquo;s an even easier and faster way to correct the misplacement. Just hold <kbd>space</kbd> while creating the shape (don&rsquo;t release the mouse button yet!) and you are able to move it around at will. Release the space key and the layer can be resized again.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Shared styles</title>
+<link>http://www.sketchtips.info/?tip=36</link>
+<pubDate>Wed, 21 May 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p>Compared to Sketch 2 the linking of styles has been slightly optimized in Sketch 3 (<a href="http://www.sketchtips.info/?tip=20">read my original tip</a>). This way you can share the fills, borders, shadows, gaussian blur and refelection between multiple elements. Like before it&rsquo;s possible to link the styles of layers on one side and also the styles of text on the other side. However the process is quite similar.</p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-may-21-2014-1.jpg" data-resrc-dpi="2" width="726" height="213" alt="Screenshot of Sketch which shows two shapes that share the same style" class="resrc"></figure>
+
+<p>First you have to create the layer or text which should serve as the model for other potential content. Do this as you would normally add content to the canvas. Please note that styles can be shared across different shapes (rectangle to circle, triangle to vector etc.) After that select the layer/text whose styling you want to make available and click on the dropdown in the Inspector which says &ldquo;No Shared Style&rdquo; for shapes or &ldquo;No Text Style&rdquo; for text. Select &ldquo;Create New Shared Style&rdquo; for the former or &ldquo;Create New Text Style&rdquo; for the latter and you&rsquo;re done. </p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-may-21-2014-2.png" data-resrc-dpi="2" width="726" height="118" alt="Screenshot of Sketch which shows two text layers that share the same style" class="resrc"></figure>
+
+<p>Whenever you select another shape or text now, you can choose and apply the newly created style in this dropdown. All the other linked elements get updated immediately after that. To see a list of all the available styles click on &ldquo;Manage Shared Styles&rdquo; in the dropdown. To go even further you can also make symbols, which not only share the styling but also other characteristics like the size or transformations; they can even consist of multiple layers. Read more about symbols in one of my future tips.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Resize layers with the keyboard</title>
+<link>http://www.sketchtips.info/?tip=35</link>
+<pubDate>Wed, 14 May 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcuts:</em> <kbd>cmd</kbd> + arrow keys</p>
+
+<figure class="tip-image-right"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-may-14-2014-1.png" data-resrc-dpi="2" width="262" height="239" alt="Screenshot of Sketch which shows a rectangle with the shortscuts to resize it" class="resrc"></figure>
+
+<p>Sometimes pixel-precision is a must if you edit shapes; Sketch makes it very easy to apply this accuary. First you need to select the layer you want to edit. To change its size with the keyboard now hold down <kbd>cmd</kbd>. After that the <kbd>left</kbd> arrow key can be used to shrink its width and the <kbd>right</kbd> arrow key to enlarge it.</p>
+
+<p>The same can be done for the height with the <kbd>up</kbd> and <kbd>down</kbd> arrow keys - the former makes the shape lower, the latter makes it higher. If you attempt to change a layer this way and it resizes proportionally then lock the icon <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-may-14-2014-2.png" data-resrc-dpi="2" width="33" height="16" alt="Icon of 'proportional lock'" class="tip-image-inline"> between the width and height input fields in the Inspector is probably selected.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Advanced image editing</title>
+<link>http://www.sketchtips.info/?tip=34</link>
+<pubDate>Fri, 09 May 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<figure class="tip-image-left"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-may-09-2014-5.png" data-resrc-dpi="2" width="221" height="268" alt="Screenshot of Sketch which shows the image manipulation options" class="resrc"></figure>
+
+<p>Another area where Sketch 3 catched up much compared to its predecessor is image editing (read my <a href="http://www.sketchtips.info/?tip=22">initial tip</a>). While the possibilities are still far away from Photoshop, you may not need the former anymore if you want to make some corrections to your image or select certain areas.</p>
+
+<p>To start editing an image you still need to doube-click on it. The most obvious addition is the Magic Wand. It allows you to select similar colored areas. If you just click everything that is within a certain range (which sadly can&rsquo;t be finetuned) gets selected. By clicking and dragging you can progressively enlarge the selected area. Apart from the Magic Wand you can still select rectangular areas. After a selection is made there are four manipulation options to choose from:</p>
+
+<ul>
+	<li><strong>Invert selection</strong> <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-may-09-2014-1.png" data-resrc-dpi="2" width="25" height="25" alt="Icon of 'Invert selection'" class="tip-image-inline">: Like the name suggests, everything that is currently selected gets deselected and vice versa. </li>
+	<li><strong>Crop</strong> <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-may-09-2014-2.png" data-resrc-dpi="2" width="25" height="25" alt="Icon of 'Crop'" class="tip-image-inline">: Everything outside the selection is deleted. If you press <kbd>backspace</kbd> or <kbd>del</kbd> the selection itself is deleted.</li>
+	<li><strong>Fill selection</strong> <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-may-09-2014-3.png" data-resrc-dpi="2" width="25" height="25" alt="Icon of 'Fill selection'" class="tip-image-inline">: Fill the selection with a solid color. </li>
+	<li><strong>Vectorize selection</strong> <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-may-09-2014-4.png" data-resrc-dpi="2" width="25" height="25" alt="Icon of 'Vectorize selection'" class="tip-image-inline">: Possibily the most interesting option. Especially in combination with the Magic Wand it allows you to select certain areas of the image and make a vector shape out of it for further usage. The original image remains untouched with this manipulation.</li>
+</ul>
+
+<p>Please beware that every of this manipulations except the last are permanent and alter the actual image, thus they can&rsquo;t be reserved at a later time. In addition to these manipulations you are also able to copy and paste parts of the image with <kbd>cmd</kbd> + <kbd>C</kbd> and <kbd>cmd</kbd> + <kbd>P</kbd>. To end the image editing click outside the image or press enter or esc.</p>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>View options</title>
+<link>http://www.sketchtips.info/?tip=33</link>
+<pubDate>Wed, 30 Apr 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<figure class="tip-image-right"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-apr-30-2014.png" width="238" height="339" alt="Screenshot of Sketch which shows a layer and the rulers, grid and some layer guides turned on" class="resrc"></figure>
+
+<p>There are several viewing options and aids in Sketch, which can easily be hidden/shown with shortcuts.</p>
+
+<ul>
+	<li><strong>Show/hide rulers</strong>: <kbd>ctrl</kbd> + <kbd>R</kbd>. The main purpose of rulers is to give you a sense of the dimensions of your canvas and layers and to add layer guides.</li>
+	<li><strong>Show/hide layer guides</strong>: <kbd>ctrl</kbd> + <kbd>L</kbd>. To add a layer guide double-click on the desired position on the ruler. You can learn more about them in my <a href="http://localhost/sketchtips/?tip=8">tip about layer guides</a>.
+	<li><strong>Hide/show grid and layout</strong>: <kbd>ctrl</kbd> + <kbd>G</kbd>. These two terms can be a bit confusing in Sketch. What you typically understand as a grid in web-design - columns and gutters to align content - is called &ldquo;layout&rdquo; in Sketch. A grid in Sketch on the other side is just a raster of intersecting lines with consistant spacing like shown in the screenshot.</li>
+	<li><strong>Hide/show pixels</strong>: <kbd>ctrl</kbd> + <kbd>P</kbd>. While Sketch is based on vectors, this option lets you view your layers how they look when they get rastered. Read more about that in <a href="http://localhost/sketchtips/?tip=4">my related tip</a>.</li>
+	<li><strong>Show/hide pixel grid</strong>: <kbd>ctrl</kbd> + <kbd>X</kbd>. As soon as you &ldquo;show pixels&rdquo; in Sketch, a raster is shown when you zoom in to more than 400 %. This shortcut lets you toogle this grid.</li>
+	<li><strong>Show/hide selection handles</strong>: <kbd>ctrl</kbd> + <kbd>H</kbd>. If you click on a layer in Sketch, tiny grey boxes are shown around it. They let you resize the layer or rotate it if you hold <kbd>cmd</kbd>.</li>
+</ul>
+]]>
+</description>
+</item>
+
+
+
+<item>
+<title>Exporting</title>
+<link>http://www.sketchtips.info/?tip=32</link>
+<pubDate>Thu, 24 Apr 2014 00:00:00 +0100</pubDate>
+<dc:creator>Christian Krammer</dc:creator>
+<description>
+<![CDATA[
+<p class="tip-text-shortcut"><em>Shortcut:</em> <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>E</kbd></p>
+
+<p>One of the features that changed (and improved) a lot in Sketch 3 is exporting. Earlier it was an entirely separate workflow and always felt a bit clunky. Not only did you have to add slices for every layer you wanted to export, but also needed to adjust this slice if you moved around the layer.</p>
+
+<p>In Sketch 3 there are different approaches to exporting. The easiest way is to select a layer, click on &ldquo;Make Exportable&rdquo; in the bottom right corner of the Inspector and choose the format. Now every time you click on &ldquo;Export&rdquo; <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-apr-24-2014-1.png" width="41" height="41" alt="The Export icon" class="tip-image-inline"> in the toolbar (or press <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>E</kbd>) all the tagged layers are presented in a handy dialog. </p>
+
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-apr-24-2014-2.jpg" width="726" height="430" alt="Screenshot of Sketch which shows three layers, which are prepared for beeing exported as well as the Export dialog" class="resrc"/></figure>
+
+<p>Additionally all the layers that you selected for exporting are presented with an indicator (a little knife <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-apr-24-2014-3.png" width="25" height="23" alt="Indication of a masked layer" class="tip-image-inline">) in the Layers List.</p>
+
+<figure class="tip-image-right"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-apr-24-2014-4.jpg" width="231" height="354" alt="Screenshot of Sketch which shows the options to export a slice" class="resrc"></figure>
+
+<p>However the slices from Sketch 2 are not gone yet, but they are more powerful this time. Firstly they are displayed in the Layers List now so that you can keep track. You also see them permanently in the canvas as dashed lines. To insert a slice press <kbd>S</kbd> and draw a rectangle of the content you want to export. When you click on this rectangle you not only see the clipping in the Inspector but are also presented with various options there. </p>
+
+<p>The process of exporting a whole artboard is very similar, since they are treated like huge slices when you click on them in the Layers List.</p>
+]]>
+</description>
+</item>
+
 
 
 <item>
@@ -39,7 +276,7 @@
 
 <figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-apr-09-2014.png" width="726" height="382" alt="Screenshot of Sketch which shows 3 of the above shortcuts" class="resrc"></figure>
 
-<p>To get even more screen estate you can also hide the Toolbar with <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>T</kbd>. Lastly, as in many Mac apps, there&rsquo;s the possibility to go into Full Screen mode with <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>F</kbd>.</p><p>This tip applies to: Sketch 3.</p>
+<p>To get even more screen estate you can also hide the Toolbar with <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>T</kbd>. Lastly, as in many Mac apps, there&rsquo;s the possibility to go into Full Screen mode with <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>F</kbd>.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
 ]]>
 </description>
 </item>
@@ -111,7 +348,9 @@
 <![CDATA[
 <p>While the Export option in Sketch is pretty straightforward and easy to use there is an even simpler way to save your files. All you have to do is to click on &ldquo;Export&rdquo; icon <img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-mar-12-2014-2.jpg" width="39" height="39" alt="Icon of the 'Export' option" class="tip-image-inline"> in the toolbar (top right corner) and draw a selection around the part of the artboard you want to export. Then drag the little thumbnail of your selection to the desktop or another location like the Finder and it gets immediatley saved as a PNG image. </p>
 
-<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-mar-12-2014.jpg" width="726" height="458" alt="Screenshot of Sketch which shows the Export option" class="resrc"><figcaption class="tip-image-text">Game Center Icon by <a href="http://codepen.io/rss/pen/vclLe">Riza Selçuk Saydam</a> on <a href="http://sketchmine.co/">sketchmine.co</a></figcaption></figure><p>This tip applies to: Sketch 2.</p>
+<figure class="tip-image"><img src="http://app.resrc.it/http://www.sketchtips.info/img/screen-mar-12-2014.jpg" width="726" height="458" alt="Screenshot of Sketch which shows the Export option" class="resrc"><figcaption class="tip-image-text">Game Center Icon by <a href="http://codepen.io/rss/pen/vclLe">Riza Selçuk Saydam</a> on <a href="http://sketchmine.co/">sketchmine.co</a></figcaption></figure>
+
+<p>In Sketch 3 it&rsquo;s even easier: Just drag the layer from the Layer List out of Sketch.</p><p>This tip applies to: Sketch 2.</p>
 ]]>
 </description>
 </item>
@@ -316,7 +555,7 @@
 <item>
 <title>Make Grid, part 2</title>
 <link>http://www.sketchtips.info/?tip=16</link>
-<pubDate>Mon, 30 Dec 2014 00:00:00 +0100</pubDate>
+<pubDate>Sun, 29 Dec 2013 00:00:00 +0100</pubDate>
 <dc:creator>Christian Krammer</dc:creator>
 <description>
 <![CDATA[
@@ -711,7 +950,7 @@
 <li><strong>CSS to the max</strong>: I could have done much at sketchtips.info also with jQuery, but I decided to use CSS3 as often as possible &ndash; foremost for animations and transitions. The main reason, why the site still wouldn&rsquo;t work without JS is that I almost exclusively used Ajax to load new content and handle all the processing.</li>
 </ul>
 
-<p>These were the main points, which I absolutely wanted to employ at this site. Some areas may still need some work and there may be some devices which don&rsquo;t handle the site well enough, but I&rsquo;m always improving. Please share your thougts about sketchtips.info in the comments.</p><p>This tip applies to: Sketch 2, Sketch 3.</p>
+<p>These were the main points, which I absolutely wanted to employ at this site. Some areas may still need some work and there may be some devices which don&rsquo;t handle the site well enough, but I&rsquo;m always improving. Please share your thougts about sketchtips.info in the comments.</p>
 ]]>
 </description>
 </item>

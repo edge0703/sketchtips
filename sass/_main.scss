@@ -29,18 +29,17 @@
 		background: none;
 
 		&:before {
-			content: "\e003";
+			$size: 9.6rem;
+			content: "";
 			position: absolute;
-			left: -8*$rem; top: -3.4*$rem; left: -8rem; top: -3.4rem;
-			font-size: 11*$rem; font-size: 11rem;
-		} 
-
-		&:after {
-			content: "\e002";
-			position: absolute;
-			left: -8.6*$rem; bottom: -.8*$rem; left: -8.6rem; bottom: -.8rem; 
-			font-size: 2.3*$rem; font-size: 2.3rem;
-			text-shadow: 0 .3*$rem 0 $maincolor; text-shadow: 0 .3rem 0 $maincolor;
+			left: convert-px($size * -1);
+			left: $size * -1; top: 0;
+			background: inline-image('logo.png') 0 50% no-repeat;
+			background: inline-image('logo.svg') 0 50% no-repeat, none;
+			background-size: 100% auto;
+			width: convert-px($size * .9);
+			width: $size * .9;
+			height: 100%;
 		} 
 
 		.no-textshadow & {
@@ -69,6 +68,10 @@
 
 		&:hover {
 			background: transparent;
+		}
+
+		&:focus {
+			opacity: .5;
 		}
 	}
 
@@ -132,7 +135,7 @@
 	a {
 		background-position: 50%;
 		background-repeat: no-repeat;
-		background-size: 2.4*$rem auto; background-size: 2.4rem auto;
+		background-size: 2*$rem auto; background-size: 2rem auto;
 		background-color: darken($maincolor, 9%);
 		width: 100%; height: 100%;
 		display: block;
@@ -205,13 +208,13 @@
 		width: convert-px($nav-small-size); height: convert-px($nav-small-size); width: $nav-small-size; height: $nav-small-size;
 		line-height: convert-px($nav-small-size + .4); line-height: $nav-small-size + .4;
 		@include border-radius(.2*$rem); @include border-radius(.2rem);
-		@include box-shadow(inset 0 0 0 2*$rem #fff); @include box-shadow(inset 0 0 0 2rem #fff);
+		@include box-shadow(inset 0 0 0 .2*$rem #fff); @include box-shadow(inset 0 0 0 .2rem #fff);
 		position: relative;
 		background: transparent;
 		@include transition(all .2s);
 
 		&.selected, &:hover {
-			@include box-shadow(inset 0 0 0 .2*$rem #fff); @include box-shadow(inset 0 0 0 .2rem #fff);
+			@include box-shadow(inset 0 0 0 2*$rem #fff); @include box-shadow(inset 0 0 0 2rem #fff);
 
 			a {
 				background-color: transparent;
@@ -581,7 +584,7 @@ $tipversion-size: 2rem;
 		margin: .6*$rem 3.5% 1*$rem 0; margin: .6rem 3.5% 1rem 0;
 		max-width: 46%;
 
-		@include media-query(small) {
+		@include media-query(mediumins) {
 			max-width: none;
 		}	
 	}
@@ -885,7 +888,7 @@ $tipversion-size: 2rem;
 	color: #A2AAA9; color: rgba(255,255,255,.7);
 }
 
-.overlay-hide {
+.overlay-hide, .hide-icon {
 	$size: 3rem;
 	position: absolute;
 	right: 2.5%; top: .8*$rem; top: .8rem;
@@ -1006,7 +1009,6 @@ $tipversion-size: 2rem;
 	position: relative;
 	line-height: 1.2;
 	color: #fff;
-	@include animation(anim-message 1s);
 	background: $messagecolor;
 
 	a {
@@ -1015,6 +1017,16 @@ $tipversion-size: 2rem;
 		&:hover {
 			color: $messagecolor;
 			background: #fff;
+		}
+	}
+
+	.hide-icon {
+		position: absolute;
+		top: 0; bottom: 0; right: 1%;
+		margin: auto;
+
+		&:hover {
+			background: none;
 		}
 	}
 }
@@ -1045,6 +1057,7 @@ $tipversion-size: 2rem;
 .message-success {
 	padding-left: 5*$rem; padding-left: 5rem;
 	background: $green;
+	@include animation(anim-message 1s);
 
 	a {
 		&:hover {
@@ -1061,6 +1074,7 @@ $tipversion-size: 2rem;
 .message-error {
 	background: $errorcolor;
 	padding-left: 3.6rem;
+	@include animation(shake .8s);
 
 	a {
 		&:hover {
@@ -1072,6 +1086,10 @@ $tipversion-size: 2rem;
 		content: "\e006";
 		font-size: 2*$rem; font-size: 2rem;
 	}
+}
+
+.message-fullwidth {
+	width: 100%;
 }
 
 .overlay-contact-hint {

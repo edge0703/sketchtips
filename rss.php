@@ -1,19 +1,23 @@
 <?php include("inc/functions.php"); ?>
 
 <?php
-	$datum = strftime("%a, %d %b %G %H:%M:%S +0100");
+	$ergebnis = mysql_query("SELECT date FROM articles ORDER BY id DESC");
+	$row = mysql_fetch_object($ergebnis);
+	$timestamp = strtotime($row->date);
+	$date = strftime("%a, %d %b %G %H:%M:%S +0100", $timestamp);
 	$datei = "feed.rss";
 	$handler = fopen($datei, 'w') or die("can't open file");
 	$inhalt = '
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>sketchtips.info</title>
 <link>http://www.sketchtips.info</link>
 <description>Clever tips for your favourite design app.</description>
-<lastBuildDate>' . $datum . '</lastBuildDate>
+<lastBuildDate>' . $date . '</lastBuildDate>
 <language>en-US</language>
+<atom:link href="http://www.sketchtips.info/feed.rss" rel="self" type="application/rss+xml" />
 ';
-	$ergebnis = mysql_query("SELECT * FROM articles ORDER BY date DESC");
+	$ergebnis = mysql_query("SELECT * FROM articles ORDER BY id DESC");
 
 	while ($row = mysql_fetch_object($ergebnis)) { // Get fields from DB
 		$timestamp = strtotime($row->date);
