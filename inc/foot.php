@@ -1,13 +1,13 @@
-<script>
+<!--<script>
   resrc = {
   options: {
       resrcOnLoad: false
     }
   };
-</script>
+</script>-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-<script src="http://use.resrc.it/js/resrc-0.6.4.min.js"></script>
+<!-- <script src="http://use.resrc.it/js/resrc-0.6.4.min.js"></script> -->
 <script src="js/script.min.js"></script>
 <script>
   WebFont.load({

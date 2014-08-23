@@ -1,11 +1,11 @@
-var changeImgs = function() { // Swap "src" of <img>s to "data-src"
-	$('.tip-image').find('img').each(function() {
-	   var imgSrc = $(this).attr('src');
-	   $(this).attr('data-src', imgSrc);
-	   $(this).removeAttr('src');
-	});
-}
-changeImgs();
+// var changeImgs = function() { // Swap "src" of <img>s to "data-src"
+// 	$('.tip-image').find('img').each(function() {
+// 	   var imgSrc = $(this).attr('src');
+// 	   $(this).attr('data-src', imgSrc);
+// 	   $(this).removeAttr('src');
+// 	});
+// }
+// changeImgs();
 
 $('.overlay').attr('hidden', 'true').find('.overlay-inner').find('form').after('<a href="#" class="overlay-hide"><span>Hide window</span></a>'); // Add "hidden" attribute and hide-link for overlays
 $('.button-search').remove(); // Remove search button since instant search is used
