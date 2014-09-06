@@ -31,6 +31,7 @@ if ($_POST['event'] == "loadmore") { // If loadmore-link was clicked
 		$v2 = $row->v2;
 		$v3 = $row->v3;
 		$announcement = $row->announcement;
+		$author = $row->author;
 		include("inc/article.php");
 	}
 }
@@ -65,6 +66,7 @@ if ($_POST['event'] == "search") { // Get tips with given search term
 		$v2 = $row->v2;
 		$v3 = $row->v3;
 		$announcement = $row->announcement;
+		$author = $row->author;
 		include("inc/article.php");
 	}
 }

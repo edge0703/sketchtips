@@ -68,6 +68,7 @@
 					$v3 = $row->v3;
 					$announcement = $row->announcement;
 					$datetime = strftime("%Y-%m-%d", $timestamp);
+					$author = $row->author;
 					include("inc/article.php");
 				}
 				$startNext_post = $startNext - $countTips; // Calculate how many tips will be displayed when "Load more" link is clicked

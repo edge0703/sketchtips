@@ -505,15 +505,6 @@ $tipversion-size: 2rem;
 	mark {
 		color: inherit;
 	}
-
-	.tip-announcement & {
-		padding-left: convert-px(2.6rem);
-		padding-left: 2.6rem;
-
-		@include media-query(large) {
-			padding: 0;
-		}
-	}
 }
 
 .tip-text {
@@ -685,6 +676,20 @@ $tipversion-size: 2rem;
 	}
 }
 
+.tip-author {
+	color: rgba(0,0,0,.6);
+	font-size: 1.4*$rem; font-size: 1.4rem;
+
+	a {
+		color: inherit;
+		text-decoration: none;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
 .tip-separator {
 	$ratio: 1.42;
 	$basewidth-orig: 3.6rem;
@@ -694,7 +699,7 @@ $tipversion-size: 2rem;
 	background: inline-image('drop.svg') no-repeat;
 	width: convert-px($basewidth-orig); height: convert-px($baseheight-orig); width: $basewidth-orig; height: $baseheight-orig;
 	background-size: 100% auto;
-	margin: 0 auto 1.8*$rem; margin: 0 auto 1.8rem;
+	margin: -2*$rem auto 1.8*$rem; margin: -2rem auto 1.8rem;
 
 	&:before, &:after {
 		$basewidth: $basewidth-orig * .7;

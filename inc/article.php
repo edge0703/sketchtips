@@ -10,6 +10,7 @@
 	<div class="tip-text">
 		<?php echo $text; ?>
 	</div>
+	<div class="tip-author">by <a href="<?php if($author == "Christian Krammer") { ?>http://chriskrammer.com<?php } else { ?>http://www.uxcandy.net/<?php } ?>"><?php echo $author; ?></a></div>
 
 	<div class="tip-separator"><span>oOo</span></div>
 </article>
