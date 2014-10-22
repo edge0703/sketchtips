@@ -1,0 +1,17 @@
+Title: Clever tips for your favourite design app
+
+----
+
+Author: Christian Krammer
+
+----
+
+Description: On sketch-tips you get a useful tip for the design app Sketch every day.
+
+----
+
+Keywords: Kirby,CMS,file-based
+
+----
+
+Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
