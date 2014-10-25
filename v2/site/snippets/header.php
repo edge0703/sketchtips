@@ -8,7 +8,7 @@
   <meta name="author" content="Christian Krammer"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <?php echo css('assets/css/style.css') ?>
-  <?php echo css('assets/js/modernizr.custom.00233.js') ?>
+  <?php echo js('assets/js/modernizr.custom.00233.js') ?>
   <script type="text/javascript">if ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window ) {document.write('<style type="text/css">body{opacity:0}</style>');}</script>
 </head>
 

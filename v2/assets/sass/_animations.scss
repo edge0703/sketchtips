@@ -1,0 +1,35 @@
+@include animation-keyframes(anim-disc) {
+	0% {background: $maincolor}
+	50% {background: rgba($maincolor, .4)}
+	100% {background: rgba($maincolor, .4)}
+}
+
+@include animation-keyframes(anim-error) {
+	0% {background: #fff}
+	50% {background: $maincolor}
+	100% {background: #fff}
+}
+
+@include animation-keyframes(anim-message) {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+@include animation-keyframes(anim-heart) {
+	50% {background-size: 2rem auto}
+}
+
+@include animation-keyframes(shake) {
+  0%, 100% {
+    @include transform(translateX(0));
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    @include transform(translateX(-10px));
+
+  }
+
+  20%, 40%, 60%, 80% {
+    @include transform(translateX(10px));
+  }
+}

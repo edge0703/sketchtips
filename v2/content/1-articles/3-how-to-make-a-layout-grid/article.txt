@@ -2,6 +2,10 @@ Title: How to make a layout-grid
 
 ----
 
+Date: 2014/08/11
+
+----
+
 Shortcut: <kbd>ctrl</kbd> + <kbd>L</kbd>
 
 ----
@@ -12,11 +16,11 @@ Menubar:
 
 Text: Note: The terms of “grid” and “layout” are used a bit ambigious in Sketch. A grid, which you typically use on a website or app to align content, is actually called “layout”, while a “grid” is just a raster of evenly spaced vertical and horizontal lines for easier alignment. However, in this article I’d like to talk about Sketch’s “layout” option which I call “grid” in the following to use the proper term.
 
-(image: screen-jul-02-2014-1.png)
+(image: screen-jul-02-2014-1.png class: tip-image)
 
 Since grids are one of the most essential starting points for a design, they are an inherent part of Sketch. To toggle the grid press ctrl + g or select “View > Show/Hide layout” in either the menubar or toolbar. Now a default grid is shown which you can change with “View > Layout Settings...”. The following dialog has numerous options to adjust. On the top you can define the “Width” of the grid and the “Number of Columns”. Unfortunately the width can only be set in pixels – if you need a percentage you have to do the math by yourself. Right beneath is a handy “Center” button and the option “Gutter on outside”, which distributes half of the set “Gutter width” on the left and right outside of the grid. If you have set “20px” then 10px are added to the left side of the grid and 10px on the right side. If switched off the grid is exactly as wide as set at the “Width”.
 
-(image: screen-jul-02-2014-2.png)
+(image: screen-jul-02-2014-2.png class: tip-image)
 
 Next you find the aforementioned field for “Gutter Width”, which determines how wide the spaces in between the columns are and “Column Width”, which determines the width of columns set at “Number of Columns” above. The “Guter Width” is automatically adjusted based on the “Total width”, “Number of Columns” and “Column Width”, but naturally you can also adjust it which in turn affects the “Column Width”.
 
@@ -25,3 +29,7 @@ Apart from a grid based on columns it is also possible to make a “row” grid 
 ----
 
 Tags: 
+
+----
+
+Author: Christian Krammer

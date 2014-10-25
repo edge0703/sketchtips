@@ -2,6 +2,10 @@ Title: A new chapter for sketchtips
 
 ----
 
+Date: 2014/10/01
+
+----
+
 Text: I’ve been a big fan of Sketch and Christian’s blog since first discovering Sketch 2.0 on the recommendation of a friend who converted from Adobe Illustrator. I’m extremely excited to pick up the mantle and carry this while Christian is on his sabbatical and he indulges other pursuits.
 
 For my initial post, I was going to go talk a little about the team at Bohemian Coding so I reached out to them but Emanuel Sa wrote back:
@@ -12,12 +16,20 @@ Honestly, I was initially taken aback somewhat, given that I saw it as a opportu
 
 I’ve reached out to a few interesting groups using Sketch such as Teehan+Lax so hopefully we’ll have some interesting insights soon but in the meantime, my next post will be focused on the improvements in Sketch 3.1.
 
-For those who want to connect with me, look me up on Linkedin au.linkedin.com/in/ahjwu/.
+For those who want to connect with me, look me up on Linkedin (link: http://au.linkedin.com/in/ahjwu/ text: au.linkedin.com/in/ahjwu/).
 
 ----
 
-Shortcut: My shortcut
+Shortcut: 
 
 ----
 
 Tags: 
+
+----
+
+Menubar: 
+
+----
+
+Author: Alex Wu

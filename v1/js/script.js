@@ -11,13 +11,13 @@ if ( // Browser check
 		      $('body').addClass('js-ready');
 		  },500);
 		}); // Above function is only called after a short delay to prevent FOUC
-		$.getScript("js/jquery.review-1.0.0.min.js", function( data, textStatus, jqxhr ) { // Additional JS for modern browsers
-		  $('.resrc').review({
-		    callback: function() {
-		      resrc.resrc(this);
-		    }
-		  });
-		}); // Async load lazy images
+		// $.getScript("js/jquery.review-1.0.0.min.js", function( data, textStatus, jqxhr ) { // Additional JS for modern browsers
+		//   $('.resrc').review({
+		//     callback: function() {
+		//       resrc.resrc(this);
+		//     }
+		//   });
+		// }); // Async load lazy images
 	});
 } else { // Ancient browsers
 	var props = $('.overlay-search').find('input');
