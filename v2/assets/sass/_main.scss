@@ -111,7 +111,7 @@
 
 .main-header-nav-item {
 	float: left;
-	width: $one-third;
+	width: $one-unit;
 	height: convert-px($nav-init-height); height: $nav-init-height;
 
 	&.selected {
@@ -306,7 +306,7 @@
 	max-width: convert-px($max-width-site); max-width: $max-width-site;
 	margin: 0 auto;
 	padding: 0 $main-lrpadding; padding: 0 $main-lrpadding;
-	min-height: 80*$rem; min-height: 80rem;
+	
 
 	@include media-query(small) {
 		max-width: none;
@@ -315,16 +315,15 @@
 	@include media-query(medium) {
 		padding: 0;
 		max-width: convert-px($max-width-site); max-width: $max-width-site;
+		min-height: 80*$rem; min-height: 80rem;
 	}
 }
 
 .main-main-in {
-	padding: 4.8*$rem 0 2*$rem; padding: 4.8rem 0 2rem;
+	padding: 3.6*$rem 0; padding: 3.6rem 0;
 
-	> .message {
-		margin-bottom: 2*$rem; margin-bottom: 2rem;
-		padding-right: 3*$rem;
-		padding-right: 3rem;
+	@include media-query(small-form) {
+		padding-top: 6*$rem; padding-top: 6rem;
 	}
 }
 
@@ -337,13 +336,17 @@
 		font-weight: 700;
 		color: $maincolor;
 	}
+
+	&:last-of-type {
+		.tip-separator {
+			display: none;
+		}
+	}
 }
 
 .tip-in {
-	margin-bottom: 3rem;
-
 	.tip-separator {
-		display: none;
+		margin: 3*$rem 0 -6*$rem 0; margin: 3rem 0 -6rem 0;
 	}
 }
 
@@ -549,7 +552,7 @@ $tipversion-size: 2rem;
 	}
 
 	@include media-query(small-form) {
-		display: block;
+		display: inline-block;
 	}
 
 	@include media-query(large) {
@@ -558,9 +561,17 @@ $tipversion-size: 2rem;
 	}
 }
 
+.tip-author {
+	@include media-query(small-form) {
+		.tip-header-image {
+			top: -1.3*$rem; top: -.1.3rem;
+		}
+	}
+}
+
 .tip-header-meta {
 	font-size: 1.4*$rem; font-size: 1.4rem;
-	margin: .3*$rem 0 0; margin: .3rem 0 0;
+	margin: .6*$rem 0 0; margin: .6rem 0 0;
 	color: #808080;
 	padding-left: .1*$rem; padding-left: .1rem;
 
@@ -587,7 +598,7 @@ $tipversion-size: 2rem;
 }
 
 .tip-text {
-	z-index: 1;
+	z-index: 2;
 	position: relative;
 
 	p {
@@ -666,12 +677,31 @@ $tipversion-size: 2rem;
 	}
 }
 
+.tip-more {
+	display: inline-block;
+	margin: 0 -.5*$rem; margin: 0 -.5rem;
+
+	@include media-query(small-form) {
+		display: block;
+	}
+}
+
+.tip-more-in {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 .5*$rem; padding: 0 .5rem;
+
+	@include media-query(small-form) {
+		margin-top: 1.4*$rem; margin-top: 1.4rem;
+	}
+}
+
 .tip-menu {
 	color: #fff;
 	background: #000;
 	font-size: 1.8*$rem; font-size: 1.8rem;
 	padding: .8*$rem 1*$rem .6*$rem; padding: .8rem 1rem .6rem;
-	border-radius: .4*$rem; border-radius: .4rem;
+	@include border-radius(.4*$rem); @include border-radius(.4rem);
 	position: absolute;
 	left: 1*$rem; left: 1rem; top: 100%;
 	@extend %open-sans;
@@ -756,48 +786,135 @@ $tipversion-size: 2rem;
 }
 
 .tip-separator {
-	$ratio: 1.42;
-	$basewidth-orig: 3.6rem;
-	$baseheight-orig: $basewidth-orig * $ratio;
-
+	text-align: center;
+	margin: 1*$rem 0 1.8*$rem; margin: 1rem 0 1.8rem;
 	position: relative;
-	background: inline-image('drop.svg') no-repeat;
-	width: convert-px($basewidth-orig); height: convert-px($baseheight-orig); width: $basewidth-orig; height: $baseheight-orig;
-	background-size: 100% auto;
-	margin: -1*$rem auto 2.5*$rem; margin: -1rem auto 2.5rem;
+	z-index: 1;
 
-	&:before, &:after {
-		$basewidth: $basewidth-orig * .7;
-		$baseheight: $basewidth * $ratio;
-		content: "";
-		background: inherit;
-		width: convert-px($basewidth); height: convert-px($baseheight); width: $basewidth; height: $baseheight;
-		position: absolute;
-		left: 50%; top: 16%; 
-		margin-left: convert-px(-($basewidth)/2); margin-left: -($basewidth)/2;
+	span {
+		display: inline-block;
+		width: 40px;
+		height: 54px;
+		background: inline-image('droph.svg');
+		background-size: 40px 54px;
+		text-indent: -9999px;
 	}
 
+	@include media-query(small-form) {
+		margin-top: -4rem; margin-top: -4*$rem;
+		margin-bottom: 4*$rem; margin-bottom: 4rem;
+	}
+}
+
+.arrow {
+	text-decoration: none;
+
+	&:visited {
+		color: $maincolor;
+	}
+
+	&:hover {
+		color: #fff;
+	}
+}
+
+.arrow-right {
 	&:after {
-		$basewidth: $basewidth-orig * .4;
-		$baseheight: $basewidth * $ratio;
-		width: convert-px($basewidth); height: convert-px($baseheight); width: $basewidth; height: $baseheight;
-		top: 33%; 
-		margin-left: convert-px(-($basewidth)/2); margin-left: -($basewidth)/2;
+		@extend %arrow;
+		width: 8px;
+		height: 15px;
+		margin-left: .5*$rem; margin-left: .5rem;
 	}
+
+	&:hover, &:focus {
+		&:after {
+			background-position: -10px 0;
+		}
+	}
+}
+
+.arrow-left {
+	&:before {
+		@extend %arrow;
+		width: 8px;
+		height: 15px;
+		margin-right: .5*$rem; margin-right: .5rem;
+		background-position: 0 -20px;
+	}
+
+	&:hover, &:focus {
+		&:before {
+			background-position: -10px -20px;
+		}
+	}
+}
+
+.article-nav {
+	margin-top: 4*$rem 0 1*$rem; margin: 4rem 0 1rem;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
 
 	span {
 		display: none;
-	}
 
-	.no-svg & {
-		background: image-url('drop.png') 50% 0 no-repeat;
-		width: auto;
-
-		&:before, &:after {
-			content: "";
-			display: none;
+		@include media-query(small-form) {
+			display: inline;
 		}
 	}
+}
+
+.article-nav-link {
+	display: inline-block;
+}
+
+.article-nav-title {
+	display: none;
+	@include transition(.3s all);
+
+	@include media-query(small-form) {
+		display: block;
+	}
+
+	@include media-query(large) {
+		@include transform(translateY(300%));
+		opacity: 0;
+	}
+}
+
+.article-nav-title-in {
+	display: inline-block;
+	font-size: 1.2rem;
+	color: lighten(#000, 50%);
+
+	@include media-query(large) {
+		display: inline-block;
+		color: #fff;
+		background: #000;
+		padding: .1rem .4rem;
+		
+		@include border-radius(.3*$rem); @include border-radius(.3rem);
+	}
+}
+
+.article-nav-in {
+	color: $maincolor;
+
+	&:hover {
+		.article-nav-title {
+			@include transform(none);
+			opacity: 1;
+		}
+	}
+}
+
+.article-nav-prev {
+	float: left;
+}
+
+.article-nav-next {
+	float: right;
+	text-align: right;
 }
 
 .loadmore {
@@ -859,6 +976,77 @@ $tipversion-size: 2rem;
 				display: none;
 			}
 		}
+	}
+}
+
+.page-nav {
+	@extend %clearfix;
+	margin-top: 3*$rem; margin-top: 3rem;
+
+	span {
+		display: none;
+	}
+
+	@include media-query(small-form) {
+		span {
+			display: inline;
+		}
+	}
+
+	@include media-query(medium) {
+		margin-top: 5*$rem; margin-top: 5rem;
+	}
+}
+
+a.page-nav-link {
+	color: #000;
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
+	font-size: 1.8*$rem; font-size: 1.8rem;
+	font-weight: 700;
+
+	&:hover, &:focus {
+		background: #000;
+		color: #fff;
+	}
+}
+
+.page-nav-prev {
+	float: left;
+	padding-right: .5*$rem;
+	padding-right: .5rem;
+
+	&:before {
+		@extend %arrow;
+		@extend %arrow-pagenav;
+		margin-right: .6*$rem;
+		margin-right: .6rem;
+		background-position: -20px 0;
+	}
+
+	@include media-query(large) {
+		margin-left: -2.9*$rem;
+		margin-left: -2.9rem;
+	}
+}
+
+.page-nav-next {
+	float: right;
+	padding-left: .5*$rem;
+	padding-left: .5rem;
+
+	&:after {
+		@extend %arrow;
+		@extend %arrow-pagenav;
+		margin-left: .6*$rem;
+		margin-left: .6rem;
+		background-position: -20px -26px;
+	}
+
+	@include media-query(large) {
+		margin-right: -2.9*$rem;
+		margin-right: -2.9rem;
 	}
 }
 
@@ -1051,7 +1239,7 @@ $tipversion-size: 2rem;
 	box-sizing: border-box;
 	padding: .7*$rem .8*$rem; padding: .7rem .8rem;
 	display: inline-block;
-	margin: .4*$rem 0; margin: .4rem 0;
+	margin: .4*$rem 0 3*$rem; margin: .4rem 0 3rem;
 	position: relative;
 	line-height: 1.2;
 	color: #fff;
@@ -1092,16 +1280,16 @@ $tipversion-size: 2rem;
 .message-success, .message-error {
 	&:before {
 		@extend %iconfont;
-		display: inline-block;
-		margin-right: .3*$rem; margin-right: .3rem;
+		// display: inline-block;
+		// margin-right: .3*$rem; margin-right: .3rem;
 		position: absolute;
-		left: .7*$rem; left: .7rem;  top: 50%;
+		left: 1*$rem; left: 1rem;  top: 50%;
 		margin-top: -.5em;
 	}
 }
 
 .message-success {
-	padding-left: 5*$rem; padding-left: 5rem;
+	padding-left: 4.6*$rem; padding-left: 4.6rem;
 	background: $green;
 	@include animation(anim-message 1s);
 
@@ -1113,13 +1301,13 @@ $tipversion-size: 2rem;
 
 	&:before {
 		content: "\e005";
-		font-size: 3.6*$rem; font-size: 3.6rem;
+		font-size: 2.8*$rem; font-size: 2.8rem;
 	}
 }
 
 .message-error {
 	background: $errorcolor;
-	padding-left: 3.6rem;
+	padding-left: 4*$rem; padding-left: 4rem;
 	@include animation(shake .8s);
 
 	a {

@@ -7,11 +7,11 @@ password: >
 language: en
 role: admin
 history:
+  - about/christian-krammer
+  - about/alex-wu
   - articles/how-to-make-a-layout-grid
   - articles/give-me-a-break
   - articles/a-new-chapter-for-sketchtips
-  - null
-  - home
 firstname: Christian
 lastname: Krammer
-token: 558c09527ccec4a5aed3d00c0cf7c1ee14d0823f
+token: 842315d0189b8fb500ed0cfdbd6b2af57bba00aa

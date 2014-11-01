@@ -68,10 +68,10 @@
 
 @font-face {
 	font-family: 'icomoon';
-	src:url('../font/icomoon.eot');
-	src:url('../font/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('../font/icomoon.woff') format('woff'),
-		url('../font/icomoon.ttf') format('truetype');
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -134,4 +134,20 @@
 	width: convert-px($loading-disc-size); height: convert-px($loading-disc-size); width: $loading-disc-size; height: $loading-disc-size;
 	background: $maincolor;
 	@include border-radius(convert-px($loading-disc-size/2)); @include border-radius($loading-disc-size/2);
+}
+
+%arrow {
+	content: "";
+	display: inline-block;
+	background: image-url('arrows.png');
+	background: inline-image('arrows.svg') no-repeat, none;
+	position: relative;
+	top: .1*$rem; top: .1rem;
+}
+
+%arrow-pagenav {
+	@extend %arrow;
+	width: 23px;
+	height: 23px;
+	top: .5rem; top: .5*$rem;
 }

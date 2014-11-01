@@ -26,13 +26,13 @@ $form-row-top-margin: 1.6rem;
 $nav-init-height: 3.6rem;
 $nav-init-border: .34rem;
 $nav-small-size: 3.6rem;
-$one-third: ((100 - 2 * 1) / 3) * 1%; // 2 * 1 = margin
+$one-unit: ((100 - 3 * 1) / 4) * 1%; // 2 * 1 = margin
 $max-width-site: 66rem;
 $loading-disc-size: 1.2rem;
 $radio-size: 1.9rem;
 $form-border-radius: .2rem;
 $header-meta-size: 120px;
-$header-meta-rspacing: 26px;
+$header-meta-rspacing: 34px;
 
 // colors
 $maincolor: #D70014;

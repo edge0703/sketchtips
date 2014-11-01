@@ -8,7 +8,7 @@
 // changeImgs();
 
 $('.overlay').attr('hidden', 'true').find('.overlay-inner').find('form').after('<a href="#" class="overlay-hide"><span>Hide window</span></a>'); // Add "hidden" attribute and hide-link for overlays
-$('.button-search').remove(); // Remove search button since instant search is used
+// $('.button-search').remove(); // Remove search button since instant search is used
 $('.main-main-in').prepend('<div id="js-searchcontainer"></div>'); // Container for search is needed
 
 // Remove focusable for overlays, if not visible. Also reset focusable for all links on site. And add "hidden" attribute
@@ -123,9 +123,10 @@ $(document).keydown(function(e) { // overlay can be hidden with ESC key
     if(e.which == 27) {
     	if (hash == "#overlay-contact" || hash == "#overlay-search") hideOverlay();
     	if ($('.tip-menu').length > 0) hideMenu();
-    } else if(e.which == 13) { // search-overlay can also be hidden with ENTER key
-		if (hash == "#overlay-search") hideOverlay();
     }
+  //   } else if(e.which == 13) { // search-overlay can also be hidden with ENTER key
+		// if (hash == "#overlay-search") hideOverlay();
+  //   }
 });
 
 $('.overlay').on('click', '.overlay-hide', function() { // Hide overlay with close-button
@@ -252,23 +253,23 @@ var searchTips = function() {
 }
 
 // On keyup perform above function for tip-search
-$('#js-searchinput').on('keyup', function() {
-	if ($(this).val().length > 2) {
-		var maxcount = 9;
-		var searchCount = getcount('search'); // Check how many tips are found with above function
-		if(searchCount > maxcount) searchCount = maxcount + "+"; // If too many tips are found, append "+"
-		if($('#js-searchcount').length == 1) {
-			$('#js-searchcount').html("<b>Number of tips found:</b> " + searchCount); // If count-indicator is already present, just update its content
-		} else {
-			$('.overlay-search').find('.form-row').append('<span class="overlay-search-count" id="js-searchcount" tabindex="0"><b>Number of tips found:</b> ' + searchCount + '</span>'); // Else - if something is entered into the input first - append the whole element
-		}
-	    searchTips();
-	}
-});
+// $('#js-searchinput').on('keyup', function() {
+// 	if ($(this).val().length > 2) {
+// 		var maxcount = 9;
+// 		var searchCount = getcount('search'); // Check how many tips are found with above function
+// 		if(searchCount > maxcount) searchCount = maxcount + "+"; // If too many tips are found, append "+"
+// 		if($('#js-searchcount').length == 1) {
+// 			$('#js-searchcount').html("<b>Number of tips found:</b> " + searchCount); // If count-indicator is already present, just update its content
+// 		} else {
+// 			$('.overlay-search').find('.form-row').append('<span class="overlay-search-count" id="js-searchcount" tabindex="0"><b>Number of tips found:</b> ' + searchCount + '</span>'); // Else - if something is entered into the input first - append the whole element
+// 		}
+// 	    searchTips();
+// 	}
+// });
 
-$("#js-overlay-search-form").submit(function(e){ // Prevent that pressing enter submits form
-	e.preventDefault();
-});
+// $("#js-overlay-search-form").submit(function(e){ // Prevent that pressing enter submits form
+// 	e.preventDefault();
+// });
 
 var hideMenu = function() { // Hide title menu
 	$('.tip-menu').addClass('is-hidden'); // Change visual style

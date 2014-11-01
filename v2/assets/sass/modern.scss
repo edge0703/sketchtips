@@ -19,11 +19,11 @@
 	@include transition(all .3s .1s);
 }
 
-.overlay-search {
-	input[type=search] {
-		width: 100%;
-	}
-}
+// .overlay-search {
+// 	input[type=search] {
+// 		width: 100%;
+// 	}
+// }
 
 :target {
 	@include translateY(0);
