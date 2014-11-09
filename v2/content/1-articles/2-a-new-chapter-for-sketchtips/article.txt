@@ -12,6 +12,7 @@ For my initial post, I was going to go talk a little about the team at Bohemian 
 “Inspiring words? Hehe, don’t get me wrong, but we don’t really develop with that in mind, we’re discussing everything with everyone, twitter, facebook, internally, and that’s what really leads our development, it has no magic steps, it’s just that.
 We're not much to give interviews or insights into our process, as it has nothing special to begin with, we just focus ;).”
 
+## This is a sub header
 Honestly, I was initially taken aback somewhat, given that I saw it as a opportunity to connect with their customers (YOU) but once I thought about it more, it makes sense that they actually completely focused on bringing us great updates such as version 3.1.
 
 I’ve reached out to a few interesting groups using Sketch such as Teehan+Lax so hopefully we’ll have some interesting insights soon but in the meantime, my next post will be focused on the improvements in Sketch 3.1.

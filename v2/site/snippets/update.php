@@ -1,0 +1,1 @@
+<div class="update"><strong>Never miss an update!</strong> Fetch our <a href="feed">RSS feed</a> or <a href="newsletter">subscribe to the newsletter</a>.</div>

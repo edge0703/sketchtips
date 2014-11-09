@@ -1,6 +1,6 @@
 		<?php 
-		$articles = page('articles')->children()->visible()->paginate(2);
-		$subpages   = $page->children()->paginate(2);
+		$articles = page('articles')->children()->visible()->paginate(10);
+		$subpages   = $page->children()->paginate(10);
 		$pagination = $subpages->pagination();
 		?>
 
@@ -16,7 +16,7 @@
 					$avatar = "avatar_jw";
 				}
 
-				$author_array = explode(" ", strtolower($project->author()));
+				$author_array = explode(" ", strtolower($project->author())); // Generate shortcut for about page
 				$author_glue = $author_array[0]."-".$author_array[1];
 				?>
 				<h1 class="tip-title"><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h1>

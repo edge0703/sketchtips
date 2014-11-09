@@ -18,6 +18,7 @@ fields:
   shortcut:
     label: Shortcut
     type:  text
+    placeholder: Don't forget the &lt;kbd&gt; tags
   menubar:
     label: Menubar command
     type:  text  

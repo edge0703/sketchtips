@@ -12,13 +12,13 @@
 			#mc_embed_signup form {padding: 0}
 			#mc_embed_signup h2 {font-weight: 100; font-size: font-size: 33.4125px; font-size: 3.7125rem; margin-top: 0;}
 			#mc_embed_signup .mc-field-group label {font-weight: 700; font-size: 12.6px; font-size: 1.4rem}
-			#mc_embed_signup .button {margin: 10px 0 0; margin: 1.1rem 0 0}
+			#mc_embed_signup .button {margin: 10px 0 0; margin: 1.1rem 0 0; height: 42px; height: 4rem; font-size: 18px; font-size: 1.625rem}
 		</style>
 		<div id="mc_embed_signup">
 		<form action="//sketchtips.us8.list-manage.com/subscribe/post?u=24e3b4b78671904572becbc70&amp;id=7dd636552a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 		    <div id="mc_embed_signup_scroll">
 			<h2>Subscribe to our newsletter</h2>
-			<p>Don&rsquo;t miss a new article on sketchtips.info. If you sign up you the newest articles are delivered stright to your inbox every Thursday. Of course you can unsubscribe at any time.</p>
+			<p>Don&rsquo;t miss a new article on sketchtips.info. If you sign up the newest articles will be delivered straight to your inbox every Thursday. Of course you can unsubscribe at any time.</p>
 		<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 		<div class="mc-field-group">
 			<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>

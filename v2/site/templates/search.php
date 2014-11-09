@@ -9,7 +9,7 @@
 		$empty = 0;
 		$query = isset($_GET['q']) ? $_GET['q'] : null;
 		if ($query) {
-			$results = $site->search($query)->visible();
+			$results = $site->search($query)->visible()->flip()->filterBy('template', 'article');;
 
 			if (strlen($query) > 3) { // If search word has more than 3 characters
 			    if ($results != "") { // If search retriefed results
@@ -34,8 +34,12 @@
 					} else {
 						$avatar = "";
 					}
-					$author_array = explode(" ", strtolower($project->author()));
-					$author_glue = $author_array[0]."-".$author_array[1];
+					if ($avatar != "") {
+						$author_array = explode(" ", strtolower($project->author())); // Generate shortcut for about page
+						$author_glue = $author_array[0]."-".$author_array[1];
+					} else {
+						$author_glue = "";
+					}
 					?>
 					<h1 class="tip-title"><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h1>
 					<div class="tip-header-in">
@@ -68,7 +72,7 @@
 		<?
 		} else if ($empty == 2) {
 		?>
-		<div class="message message-error">Please enter at least 3 characters for an efficient search.</div>
+		<div class="message message-error">Please enter more than 3 characters for an efficient search.</div>
 		<?php snippet('articles') ?>
 		<?	
 		}

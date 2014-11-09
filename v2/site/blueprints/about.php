@@ -16,4 +16,7 @@ fields:
   website:
     label: Website
     type:  text
-    required: true
+  email:
+    label: Email
+    type:  text
+    required: true  

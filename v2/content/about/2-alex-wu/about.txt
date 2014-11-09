@@ -1,4 +1,4 @@
-Name: Alex Wu
+Title: Alex Wu
 
 ----
 
@@ -7,3 +7,7 @@ Text: About Alex Wu
 ----
 
 Website: http://au.linkedin.com/in/ahjwu/
+
+----
+
+Email: alex.wu@pocketdigital.com.au

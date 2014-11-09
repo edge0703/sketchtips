@@ -1,5 +1,5 @@
 <footer class="main-footer" role="contentinfo">
-	<p class="main-footer-text">Made with love by <a href="about#ck">Christian Krammer</a> and <a href="about#aw">Alex Wu</a>.</p>
+	<p class="main-footer-text">Made with love by <a href="<?=$site->url."/"?>about#christian-krammer">Christian Krammer</a> and <a href="<?=$site->url."/"?>about#alex-wu">Alex Wu</a>.</p>
 </footer>
 
 <?php echo js('assets/js/jquery-1.11.1.min.js') ?>
@@ -24,9 +24,4 @@
   })();
 </script>
 </body>
-
-<script type="text/javascript" src="http://localhost:48626/takana.js"></script>
-<script type="text/javascript">
-  takanaClient.run();
-</script>
 </html>

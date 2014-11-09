@@ -14,13 +14,13 @@
 				} else if ($page->author() == "Justin White") {
 					$avatar = "avatar_jw";
 				}
-				$author_array = explode(" ", strtolower($page->author()));
+				$author_array = explode(" ", strtolower($page->author())); // Generate shortcut for about page
 				$author_glue = $author_array[0]."-".$author_array[1];
 				?>
 				<h1 class="tip-title"><?php echo $page->title()->html() ?></h1>
 				<div class="tip-header-in">
 					<div class="tip-header-image"><img src="<?php echo url('assets/images/'.$avatar.'.png')?>" alt="Photo of <?php echo $page->author() ?>"></div>
-					<p class="tip-header-meta">by <a href="<?=$site->url."/"?>about#<?php echo $author_glue ?>"><?php echo $page->author() ?></a> <span>on <time datetime="<?php echo $page->date('Y/m/d') ?>"><?php echo $page->date('F j') ?></time></span></p>
+					<p class="tip-header-meta">by <a href="<?=$site->url."/"?>about#<?php echo $author_glue ?>"><?php echo $page->author() ?></a> <span>on <time datetime="<?php echo $page->date('Y-m-d') ?>"><?php echo $page->date('F j') ?></time></span></p>
 				</div>
 			</header>
 			<div class="tip-text">
@@ -28,6 +28,7 @@
 				<?php if(!$page->menubar()->empty()): ?><p class="tip-text-menu"><strong><?php echo $page->menubar() ?></strong></p><?php endif ?>
 				<?php echo $page->text()->kirbytext() ?>
 			</div>
+			<p class="tip-twitter"><a href="http://twitter.com/home/?status=@SketchTips" class="tip-twitter-in">Comment? Tweet<span> about this </span> article</a></p>
   			<div class="tip-separator"><span>oOo</span></div>
 		</article>
 

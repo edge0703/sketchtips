@@ -1,4 +1,2 @@
-Title: sketchtips.info
-----
-Description: Clever tips for your favourite design app.
+Title: Newsletter
 ----

@@ -7,6 +7,7 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>"/>
   <meta name="author" content="Christian Krammer"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="alternate" type="application/rss+xml" href="<?=$site->url."/"?>feed" title="Blog Feed" />
   <?php echo css('assets/css/style.css') ?>
   <?php echo js('assets/js/modernizr.custom.00233.js') ?>
   <script type="text/javascript">if ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window ) {document.write('<style type="text/css">body{opacity:0}</style>');}</script>
@@ -17,7 +18,7 @@
 <header class="main-header" role="banner">
   <div class="main-header-in">
     <div class="main-header-title"><a href="/"><b>sketch</b>tips</a></div>
-    <p class="main-header-tagline">Clever tips for your favourite design app.</p>
+    <p class="main-header-tagline">Clever tips, thoughts and insights for your favorite design app.</p>
 
     <nav class="main-header-nav" role="navigation">
       <ul>

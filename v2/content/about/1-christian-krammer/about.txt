@@ -1,9 +1,17 @@
-Name: Christian Krammer
+Title: Christian Krammer
 
 ----
 
-Text: About Christian Krammer
+Text: I'm a web-designer now for almost two decades and Photoshop was always a dear fellow for me. I read countless books, learned every single shortcut and was close to the mastery of Adobe's app (if that's ever possible). However there was always something that felt wrong about web design in it. Photoshop is clunky, eats tons of resources and has countless options you don't ever need as a UI designer.
+
+Soon after I heard about Sketch I knew that this was one of the first app I will download as soon as I get a Mac. And then, I totally fell in love with it. Sketch was so easy, lightweight and totally made for the task: to build UIs. Just like in Photoshop I turned its inside out, discovered every option, learned every shortcut and tried to master it as good as possible. To share this knowledge I started to build sketchtips.info and after a few months of work it went online in November 2013. 
+
+Besides that I'm married, have a wonderful son and live in the beautiful country of Austria. In my sparse spare time I like to hang out with my son, listen to music and watch a few films and series.
 
 ----
 
 Website: http://chriskrammer.com
+
+----
+
+Email: christian.krammer@sketchtips.info

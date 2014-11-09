@@ -1,0 +1,33 @@
+Title: Some infos
+
+----
+
+Date: 2014/11/02
+
+----
+
+Shortcut: 
+
+----
+
+Menubar: 
+
+----
+
+Text: - Either fill in the "Shortcut" field or the "menubar command" field, never both (but both can be left blank)
+- For keyboard shortcuts use the "kbd" HTML tag (in the "shortcut" field and the "text")
+- Whenever you add an image to an article give it the class "tip-image". Images can be float left (class "tip-image-left"), floated right (tip-image-right), centered (tip-image-center) or inline (tip-image-inline). The latter case can be used to put images into the body copy. Therefore they need to be pretty small.
+- Every image needs to be uploaded at @2x size. (image: screen-jun-25-2014-3.png class:tip-image-inline width: 84 height:31)
+- If you give an image just the class "tip-image", it needs to be 726 px wide. So to take retina into account it must the 1452 px wide. Else images can be as wide and high as you want. The height doesn't matter.
+- Please use "nice" quotes: “ for left double quotes, ” for the right double quote and ’ for the single quote at for example "don’t".
+- Also use "nice" dashes: –
+- Within the text you can use "##title" to mark a sub title.
+- Don't forget to change the author and date, when you add an article and always use the "Article" template.
+
+----
+
+Tags: 
+
+----
+
+Author: Christian Krammer

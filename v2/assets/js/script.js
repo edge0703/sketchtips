@@ -4,9 +4,9 @@ if ( // Browser check
   'addEventListener' in window
 ) { // Modern browsers
 	$(function() {
-		$('head').append('<link rel="stylesheet" media="screen" href="/sketchtips/v2/assets/css/modern.css"/>'); // Additional CSS for modern browsers
+		$('head').append('<link rel="stylesheet" media="screen" href="/sketchtips/assets/css/modern.css"/>'); // Additional CSS for modern browsers
 		// $.getScript("js/modern.js", function( data, textStatus, jqxhr ) { // Additional JS for modern browsers
-		$.getScript("/sketchtips/v2/assets/js/modern.min.js", function( data, textStatus, jqxhr ) { // Additional JS for modern browsers
+		$.getScript("/sketchtips/assets/js/modern.min.js", function( data, textStatus, jqxhr ) { // Additional JS for modern browsers
 		  setTimeout(function() {
 		      $('body').addClass('js-ready');
 		  },500);
